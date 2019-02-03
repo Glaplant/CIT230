@@ -1,12 +1,12 @@
 h1{
-    font-family:Roboto bold;
+    font-family: 'Roboto', sans-serif, bold;
     font-size:24px;
 
 }
 
 header h1{
     color:#fff;
-    font-family:Roboto bold;
+    font-family: 'Roboto', sans-serif;
     font-size:30px;
     
 
@@ -21,7 +21,7 @@ header{
 }
 
 header img, .headings{
-    font-family:Roboto Bold ;
+    font-family: 'Roboto', sans-serif;
     font-size:30px;
     display:inline-block;
     vertical-align:middle;
@@ -30,13 +30,13 @@ header img, .headings{
 }
 
 h2{
-    font-family:Roboto Bold ;
+    font-family: 'Roboto', sans-serif;
     font-size:20px;
 
 }
 
 .motto{
-    font-family:Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
     font-style:italic;
     color:#fff;
@@ -45,7 +45,7 @@ h2{
 }
 
 p{
-    font-family:Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
 
 }
@@ -60,9 +60,10 @@ nav li{
 
 li>a{
     color:#fff;
-    font-family:Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
     text-decoration:none;
+    text-align:center;
     
 
 }
@@ -73,7 +74,7 @@ nav ul{
 }
 
 footer p{
-    font-family:Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size:12px;
 
 }
