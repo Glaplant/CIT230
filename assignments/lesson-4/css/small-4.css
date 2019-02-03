@@ -1,0 +1,67 @@
+h1{
+    font-family:Roboto bold;
+    font-size:24px;
+
+}
+
+header h1{
+    color:#fff;
+    font-family:Roboto bold;
+    font-size:30px;
+
+}
+
+header{
+    margin:10px auto;
+    background-color:2d2e86;
+    border: 1px solid #;
+    box-shadow: 0 0 30px #;
+    text-align:center;
+}
+
+header img, .headings{
+    display:inline-block;
+    vertical-align:middle;
+    margin:10px;
+}
+
+h2{
+    font-size:20px;
+
+}
+
+.motto{
+    font-family:Roboto;
+    font-size:16px;
+
+
+}
+
+p{
+    font-size:16px;
+
+}
+
+nav li{
+    background-color:#9294c9;
+    width: 220px;
+	padding: 6px;
+	padding-left: 30px;
+
+}
+
+li>a{
+    color:#fff;
+    font-family:Roboto;
+    font-size:16px;
+    text-decoration:none;
+    list-style:none;
+
+}
+
+footer p{
+    font-family:Roboto;
+    font-size:12px;
+
+}
+
