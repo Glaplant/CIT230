@@ -146,8 +146,8 @@ nav li:active{
 
 }
 
-section>h1{
-    text-align:center;
+/*section>h1{
+    text-align:center;*/
 
 
 }
@@ -288,7 +288,7 @@ article p{
 }
 
 
-section>h3{
+#weathersummary{
     font-family: 'Roboto', sans-serif, bold;
     font-size:.8em;
     padding-top: 5%;
@@ -298,11 +298,12 @@ section>h3{
 
  /*bottom*/
 
- /*h3{
-     font-family: 'Roboto', sans-serif, bold;
-     font-size:.8em;
-    padding-top: 5%;*/
- }
+ #cloudswatching{
+    font-family: 'Roboto', sans-serif, bold;
+    font-size:1em;
+    padding-top:2%;
+    margin-left:9.5%;
+}
 
  #bottom{
     width:100%;
@@ -332,7 +333,7 @@ section>h3{
 
 address{
     font-style:normal;
-    padding-left:30px;
+    padding-left:9.5%;
     
 }
 
