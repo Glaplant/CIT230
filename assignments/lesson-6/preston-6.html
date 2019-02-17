@@ -9,21 +9,26 @@
         <link rel="stylesheet" type="text/css" href="css/large-5.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <title>Clouds Watching</title>
+       
+
     </head>
     <body>
         
            
             
         <header>
-            <section><img src="images/sun.png" alt="vector sun art" >
+            <picture>
+            <img src="images/sun.png" alt="vector sun art" >
+            </picture>
+            <section id= "headertext">
             <h1>Clouds Watching</h1>
-            <p class="motto">Relax, it's just the weather.</p>
+            <p id="motto">Relax, it's just the weather.</p>
             </section>  
         </header>
     
             <nav>
                 <ul>
-                        <li class="small">
+                        <li class="small" onclick="toggleMenu()">
                             <a href="#">Menu</a>
                         </li>
                         <li class="large">
@@ -53,15 +58,13 @@
                 </h2>
 
                 <picture>
-                    <source srcset="images/town_10.png"   media="(min-width= 320px) and (max-width= 550px )">
-                    <source srcset="images/town_25.png"   media="(min-width= 550px) and (max-width= 1000px )">
-                     <source srcset="images/town_50.png"   media="(min-width= 1001px)">
-                    <img src="images/town_10.png" alt="picture of town" >
-                    <img src="images/town_25.png" alt="picture of town" >
-                    <img src="images/town_50.png" alt="picture of town" >
+                     <source  media="(min-width= 1001px)" srcset = "images/Town50.jpg"  >
+                    <img src="images/Town10.jpg" alt="picture of town" >
+        
                 </picture>
                 <section id="weatherBox">
-                <h3>Weather Summary</h3>
+                <h3 id="weathersummary">Weather Summary</h3>
+                <div id="tempcontainer">
                 <ul class="left">
                     <li >Currently:</li>
                     <li >High:</li>
@@ -77,35 +80,43 @@
                     <li >5mph</li>
                    </ul>
                 </div>
-
-                  
                 </section>
+
                 <section>
                 <h3 class="large" id="forecast">5 Day Forecast</h3>
-                <img class="large" src="images/weather.jpg">
+                <picture> 
+                    <source media="(min-width= 1001px)" srcset= "images/Town50.jpg" >
+                    <img class="large" src="images/weather.jpg" alt="5day forecast">
+                </picture>
                 </section>
             <article id="middle">
-                
+                <picture>
+                <source  media="(min-width= 1001px)"  srcset= "images/Park_50.jpg"  >
                 <img src= "images/park.png" alt="people in park">
-                <h2>Founders Day Fresco</h2>
-                <p><i>By Janica Juarez</i></p>
-                 <p> I was recently reflecting upon the founders day event held at
+                </picture>
+                <h2 id="founders">Founders Day Fresco</h2>
+                <p id="author">By Janica Juarez</p>
+                 <p id="article"> I was recently reflecting upon the founders day event held at
                      Foundation Park each year. I have been taking the festival for granted
                      have not been properly engaging in perhaps the most popular community event of the year. In response, I contacted Ms. Sharon via email
                      and expressed my desire to serve on the event comittee. Well, you guesed it, the phone rings
                      almost immediately and she promptly asks me to be the event committee chair. 
                      Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers
                      and sponsors has escalated beyond what I thought I could feel for such a thing
-                     and...<a hrf="#">continue to full article</a>
+                     and...<a>continue to full article</a>
                 </p>
             </article>
             <section id="bottom">
-                    <h3>Clouds Watching</h3>
+                    <h3 id="cloudswatching">Clouds Watching</h3>
                     <address>
-                        <p class="street">30 N 1st E</p>
-                        <p class="street">Preston ID,83263</p>
-                        <p class="contact">123.456.1234</p>
-                        <p class="contact" href="mailto:cloudswatching.com">Clouds watching.com</p>
+                        <div class="street">
+                        <p>30 N 1st E</p>
+                        <p >Preston ID,83263</p>
+                        </div>
+                        <div class="contact">
+                        <p>123.456.1234</p>
+                        <p>Clouds watching.com</p>
+                        </div>
                     </address>
                 <img id="map" src="images/map.gif" alt="map">
 
@@ -114,9 +125,17 @@
 
         </main>
         <footer>
-            <p> &copy 2020 Clouds Watching | Attributions | Greg La Plant </p>
-                <p>Wendsday May 20, 2020</p>
+            <p> &copy; 2020 Clouds Watching | Attributions | Greg La Plant </p>
+                <p id="currentdate">why dosent this work</p>
 
         </footer>
+        <script src="scripts/currentdate.js"></script>
+            
+
+            
+    
+        
+ 
+ 
     </body>
 </html>
