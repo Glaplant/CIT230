@@ -156,7 +156,7 @@ section>h1{
 
 /*---responsive nav---*/
 
-   nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+  /* nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
   .small { list-style: none; text-align: center; }
   .small li:first-child { display: block;}
   .small li { display: none;}
@@ -168,7 +168,7 @@ section>h1{
   .small li:first-child { display: none;	}
   .small li { display: inline-block; margin-right: 1rem;}	
   .small li a { color: yellow;}
-  }
+  }*/
 
  /*----------------------top---------------------------------------------*/
 
@@ -357,6 +357,6 @@ footer{
     width:100%;
 
 }
-}
+
 
 
