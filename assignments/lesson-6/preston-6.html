@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="css/small-5.css">
         <link rel="stylesheet" type="text/css" href="css/large-5.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="scripts/hamburger.js"></script>
         <title>Clouds Watching</title>
        
 
@@ -26,38 +27,39 @@
             </section>  
         </header>
     
-            <nav>
-                <ul>
-                        <li class="small" onclick="toggleMenu()">
-                            <a href="#">Menu</a>
-                        </li>
-                        <li class="large">
+            <nav class="clearfix">
+                
+                    
+                        <button onclick="toggleMenu()">&#9776;</button>
+                        <ul  id="primaryNav" class="">
+                        
+                        <li class="active">
                             <a href="#">Home</a>
                         </li>
-                        <li class="large">
+                        <li class="active">
                             <a href="#">Preston</a>
                         </li>
-                        <li class="large">
+                        <li class="active">
                             <a href="#">Soda Springs</a>
                         </li>
-                        <li class="large">
+                        <li class="active">
                             <a href="#">Fish Haven</a>
                         </li>
-                        <li class="large">
+                        <li class="active">
                             <a href="#">Storm Center</a>
                         </li>
-                        <li class="large">
+                        <li class="active">
                             <a href="#">Gallery</a>
                         </li>
                   </ul>
                 </nav>
          
-        <main>
+             <main >
                 <h2>
-                    Preston Idaho
+                     Preston Idaho
                 </h2>
 
-                <picture>
+               <picture>
                      <source  media="(min-width= 1001px)" srcset = "images/Town50.jpg"  >
                     <img src="images/Town10.jpg" alt="picture of town" >
         
@@ -125,12 +127,12 @@
 
         </main>
         <footer>
-            <p> &copy; 2020 Clouds Watching | Attributions | Greg La Plant </p>
+            <p> &copy;2019 Clouds Watching | Attributions | Greg La Plant </p>
                 <p id="currentdate">why dosent this work</p>
 
         </footer>
         <script src="scripts/currentdate.js"></script>
-            
+       
 
             
     

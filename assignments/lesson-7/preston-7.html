@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="preston town weather site">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/small-5.css">
+        <link rel="stylesheet" type="text/css" href="css/large-5.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="scripts/hamburger.js"></script>
+        <title>Clouds Watching</title>
+       
+
+    </head>
+    <body>
+        
+           
+            
+        <header class="clearfix">
+            <picture>
+            <img src="images/sun.png" alt="vector sun art" >
+            </picture>
+            <section id= "headertext">
+            <h1>Clouds Watching</h1>
+            <p id="motto">Relax, it's just the weather.</p>
+            </section>  
+        </header>
+    
+            <nav class="clearfix">
+                
+                    
+                        <button onclick="toggleMenu()">&#9776;</button>
+                        <ul  id="primaryNav" class="hide">
+                        
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="preston.html">Preston</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Soda Springs</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Fish Haven</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Storm Center</a>
+                        </li>
+                        <li class="active">
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                  </ul>
+                </nav>
+         
+             <main >
+                <h2>
+                     Preston Idaho
+                </h2>
+
+               <picture>
+                     <source  media="(min-width= 1001px)" srcset = "images/Town50.jpg"  >
+                    <img id="town" src="images/Town10.jpg" alt="picture of town" >
+        
+                </picture>
+                <section id="weatherBox">
+                <h3 id="weathersummary">Weather Summary</h3>
+                <div id="flexParent">
+                <ul class="left">
+                    <li >Currently:</li>
+                    <li >High:</li>
+                    <li >Windchill:</li>
+                    <li >Humidity:</li>
+                    <li >Windspeed:</li>
+                </ul>
+                <ul class="right">
+                    <li >Sunny</li>
+                    <li>76&deg;F</li>
+                    <li>78&deg;F</li>
+                    <li>69%</li>
+                    <li >5mph</li>
+                   </ul>
+                </div>
+                </section>
+
+                <section>
+                <h3 class="large" id="forecast">5 Day Forecast</h3>
+                <picture> 
+                    <source media="(min-width= 1001px)" srcset= "images/Town50.jpg" >
+                    <img class="large" src="images/weather.jpg" alt="5day forecast">
+                </picture>
+                </section>
+            <article id="middle">
+                <div id="middleflex">
+                <picture>
+                <source  media="(min-width= 1001px)"  srcset= "images/Park_50.jpg"  >
+                <img src= "images/park.png" alt="people in park">
+                </picture>
+                </div>
+                <div>
+                <h2 id="founders">Founders Day Fresco</h2>
+                <p id="author">By Janica Juarez</p>
+                 <p id="article"> I was recently reflecting upon the founders day event held at
+                     Foundation Park each year. I have been taking the festival for granted
+                     have not been properly engaging in perhaps the most popular community event of the year. In response, I contacted Ms. Sharon via email
+                     and expressed my desire to serve on the event comittee. Well, you guesed it, the phone rings
+                     almost immediately and she promptly asks me to be the event committee chair. 
+                     Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers
+                     and sponsors has escalated beyond what I thought I could feel for such a thing
+                     and...<a href="article.com">continue to full article</a>
+                </p>
+
+                </div>
+            </article>
+            <section id="bottom" class= "bottomFlex">
+                <div>
+                    <h3 id="cloudswatching">Clouds Watching</h3>
+                    <address>
+                        <div class="street">
+                        <p>30 N 1st E </p>
+                        <p >Preston ID,83263</p>
+                        </div>
+                        <div class="contact">
+                        <p>123.456.1234 &#9742;</p>
+                        <p>Clouds watching.com  &#9993;</p>
+                        </div>
+                    </address>
+                </div>
+                <div id="mapflex">
+                        <img id="map" src="images/map.gif" alt="map">
+                </div>
+            </section>
+          </main>
+        <footer>
+            <p> &copy;2019 Clouds Watching | Attributions | Greg La Plant </p>
+                <p id="currentdate">why dosent this work</p>
+
+        </footer>
+        <script src="scripts/currentdate.js"></script>
+       
+
+            
+    
+        
+ 
+ 
+    </body>
+</html>
