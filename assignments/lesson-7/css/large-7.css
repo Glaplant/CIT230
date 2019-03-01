@@ -1,4 +1,4 @@
-@media (min-width: 960px){
+@media screen and (min-width:960px){
 
     body,main,footer{
             min-width:960px;
@@ -44,12 +44,8 @@
     
     
     header img{
-        width:200%;
-        display:block;
-        margin-left: 10%;
-        margin-right: 5%;
-        margin-top: 7%;
-        margin-bottom: 2%;
+        width:5em;
+      align-self:flex-start;
     
         
     
@@ -58,12 +54,7 @@
     h1{
         color:#fff;
         font-size: 5em;
-        margin-left: 35%;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        margin-top: 13%;
-        margin-bottom: 0px;
+
         }
     
     #motto{
@@ -71,9 +62,7 @@
         font-size:3em;
         font-style:italic;
         color:#fff;
-        margin-bottom: 5%;
-        margin-top: 1%;
-        padding-bottom: 5%;
+        
       
     }
     
@@ -96,13 +85,15 @@ nav{
 /*----------------------*/
 nav ul{
     list-style-type:none;
-    margin-left:25rem;
+    display:flex;
+    flex-wrap: row;
+    justify-content: center;
  }
 
 
 
 nav ul li {
-     float:left;
+
      
      }
 
@@ -154,14 +145,14 @@ main>h2{
 /*------------weatherbox----------*/
 #weatherBox{
     background-color:rgba(45,46,134,60%);
-    width:10em;
+    width:15em;
     bottom:15em;
     color:#fff;
    }
 
 #weathersummary{
     font-family: 'Roboto', sans-serif, bold;
-    font-size:1em;
+    font-size:1.5em;
     padding-top: 5%;
     padding-bottom:5%;
     text-align: center;
@@ -174,12 +165,6 @@ main ul{
 
 }
 
-#flexParent{
-    display:flex;
-    justify-content:center;
-    width:100%;
-    
-}
 
 
 
@@ -187,7 +172,8 @@ main ul{
     font-size:1em;
     text-align:right;
     font-family: 'Roboto', sans-serif;
-    padding:0;
+    padding-left:1em;
+    float:left;
     
   
    
@@ -199,6 +185,7 @@ main ul{
     color: #eccb0b;
     font-size:1em;
     padding-left:.5em;
+    float:left;
     
     
    
@@ -358,12 +345,20 @@ footer p{
 
 
 
-     #flexParent{
-          display:flex;
-          justify-content:center;
-          flex-wrap:wrap;
+     .gridcontainer{
+        margin: 1rem auto; 
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        min-width: 960px;
+    }
+          
+       
 
         }
+
+.shadow:hover {
+    box-shadow: 0 0 50px #000 ;
+}
 
 
       
@@ -382,6 +377,6 @@ figcaption{
     margin-bottom:1em;
 
 }
-
-
 }
+
+

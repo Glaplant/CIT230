@@ -18,17 +18,18 @@
         
            
             
-        <header class="clearfix">
-            <picture>
-            <img src="images/sun.png" alt="vector sun art" >
-            </picture>
-            <section id= "headertext">
-            <h1>Clouds Watching</h1>
-            <p id="motto">Relax, it's just the weather.</p>
-            </section>  
-        </header>
+            <header id="flexheader">
+                    <picture>
+                        <source media=""  srscet="">
+                    <img src="images/sun_64x64.png" alt="vector sun art" >
+                    </picture>
+                    <div id= "headertext">
+                    <h1>Clouds Watching</h1>
+                    <p id="motto">Relax, it's just the weather.</p>
+                    </div>  
+                </header>
     
-            <nav id="flexNav" class="clearfix">
+            <nav class="clearfix">
                 
                     
                         <button onclick="toggleMenu()">&#9776;</button>
@@ -58,46 +59,49 @@
                 <main id="galleryMain">
 
                     <h1 id="galleryh1">Weather Gallery</h1>
-                    <div id="flexParent">
+                    <div class="gridcontainer">
                         <figure>
-                            <picture>
-                                <source media="(min-width=)"  srcset="images/winter200px.jpg">
-                                <img src="images/winter300px.jpg" alt="snowey picture"> 
+                            <picture >
+                                <source media="(min-width=320px) and (max-width=600)"  srcset="images/winter200px.jpg">
+                                <img class="shadow" src="images/winter300px.jpg" alt="snowey picture"> 
                             </picture>
                             <figcaption>Picture of Last Winter</figcaption>
                         </figure>
                         <figure>
-                            <picture>
-                                <source>
-                                <img src="images/desert300px.jpg" alt="desert picture"> 
+                            <picture >
+                                <source media="(min-width=320px) and (max-width=959)"   srcset="images/winter200px.jpg">
+                                <img class="shadow" src="images/desert300px.jpg" alt="desert picture"> 
                             </picture>
                             <figcaption>Picture of the Desert</figcaption>
                         </figure> 
                         <figure>
-                            <picture>
-                                <source>
-                                <img src="images/sunset300px.jpg" alt="sunset picture"> 
+                            <picture >
+                                    <source media="(min-width=320px) and (max-width=959)"  srcset="images/winter200px.jpg">
+                                <img class="shadow" src="images/sunset300px.jpg" alt="sunset picture"> 
                                 <figcaption>Picture the Sunset</figcaption>
                             </picture>
+                    
+                            
+    
                         </figure>
                             <figure>
-                                <picture>
-                                    <source>
-                                    <img src="images/storm300px.jpg" alt="storm picture"> 
+                                <picture >
+                                        <source media="(min-width=320px) and (max-width=959)"  srcset="images/storm200px.jpg">
+                                    <img class="shadow" src="images/storm300px.jpg" alt="storm picture"> 
                                     <figcaption>Winning Storm Picture</figcaption>
                                 </picture>
                             </figure>
                             <figure>
-                                <picture>
-                                    <source>
-                                    <img src="images/fall300px.jpg" alt="fall picture"> 
+                                <picture >
+                                        <source media="(min-width=320px) and (max-width=959)" srcset="images/fall200px.jpg">
+                                    <img class="shadow" src="images/fall300px.jpg" alt="fall picture"> 
                                     <figcaption>Picture of Fall</figcaption>
                                 </picture>
                             </figure>
                             <figure>
-                                <picture>
-                                    <source>
-                                    <a><img src="images/spring300px.jpg" alt="spring picture"></a> 
+                                <picture >
+                                  <source  media="(min-width=320px) and (max-width=959)"  srcset="images/spring200px.jpg">
+                                    <a><img class="shadow" src="images/spring300px.jpg" alt="spring picture"></a> 
                                     <figcaption>Pictures of Spring</figcaption>
                                 </picture>
                             </figure>

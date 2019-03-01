@@ -1,7 +1,7 @@
-@media (min-width: 794px) and (max-width:959px){
+@media (min-width:601px) and (max-width:960px){
 
     body,main,footer{
-            min-width:600px;
+            min-width:601px;
             
         }
     
@@ -182,7 +182,7 @@ nav ul li a:hover{
 
 
 
-    }
+    
 
 
 

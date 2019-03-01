@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="preston town weather site">
         <link href="css/normalize.css" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/small-5.css">
-        <link rel="stylesheet" type="text/css" href="css/large-5.css">
+        <link rel="stylesheet" type="text/css" href="css/small-7.css">
+        <link rel="stylesheet" type="text/css" href="css/medium-7.css">
+        <link rel="stylesheet" type="text/css" href="css/large-7.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <script src="scripts/hamburger.js"></script>
         <title>Clouds Watching</title>
@@ -17,14 +18,15 @@
         
            
             
-        <header class="clearfix">
+        <header id="flexheader">
             <picture>
-            <img src="images/sun.png" alt="vector sun art" >
+                <source media=""  srscet="">
+            <img src="images/sun_64x64.png" alt="vector sun art" >
             </picture>
-            <section id= "headertext">
+            <div id= "headertext">
             <h1>Clouds Watching</h1>
             <p id="motto">Relax, it's just the weather.</p>
-            </section>  
+            </div>  
         </header>
     
             <nav class="clearfix">
@@ -58,15 +60,8 @@
                 <h2>
                      Preston Idaho
                 </h2>
-
-               <picture>
-                     <source  media="(min-width= 1001px)" srcset = "images/Town50.jpg"  >
-                    <img id="town" src="images/Town10.jpg" alt="picture of town" >
-        
-                </picture>
-                <section id="weatherBox">
+                <section id="weatherBox" class="clearfix">
                 <h3 id="weathersummary">Weather Summary</h3>
-                <div id="flexParent">
                 <ul class="left">
                     <li >Currently:</li>
                     <li >High:</li>
@@ -79,10 +74,14 @@
                     <li>76&deg;F</li>
                     <li>78&deg;F</li>
                     <li>69%</li>
-                    <li >5mph</li>
+                    <li id="windchill">""</li>
                    </ul>
-                </div>
                 </section>
+                 <picture>
+                   <source  srcset = "images/Town50.jpg"  media="(min-width= 601px)"  >
+                    <img id="town" src="images/Town10.jpg" alt="picture of town" >
+                </picture>
+                
 
                 <section>
                 <h3 class="large" id="forecast">5 Day Forecast</h3>
@@ -92,13 +91,10 @@
                 </picture>
                 </section>
             <article id="middle">
-                <div id="middleflex">
                 <picture>
                 <source  media="(min-width= 1001px)"  srcset= "images/Park_50.jpg"  >
                 <img src= "images/park.png" alt="people in park">
                 </picture>
-                </div>
-                <div>
                 <h2 id="founders">Founders Day Fresco</h2>
                 <p id="author">By Janica Juarez</p>
                  <p id="article"> I was recently reflecting upon the founders day event held at
@@ -113,7 +109,7 @@
 
                 </div>
             </article>
-            <section id="bottom" class= "bottomFlex">
+            <section id="bottom">
                 <div>
                     <h3 id="cloudswatching">Clouds Watching</h3>
                     <address>
@@ -127,7 +123,7 @@
                         </div>
                     </address>
                 </div>
-                <div id="mapflex">
+                <div>
                         <img id="map" src="images/map.gif" alt="map">
                 </div>
             </section>
