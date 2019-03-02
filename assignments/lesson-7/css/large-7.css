@@ -1,8 +1,14 @@
-@media screen and (min-width:960px){
+@media screen and (min-width:601px){
 
     body,main,footer{
-            min-width:960px;
+            min-width:601px;
+           
             
+        }
+
+        main{
+            max-width:960px;
+
         }
     
     html, body{
@@ -27,43 +33,54 @@
     
     
 
-    header{
-      
+     header{
+  
         background-color:#2d2e86;
         border: 1px solid #000;
         box-shadow: 0 0 30px #000;
         width:100%;
         overflow:auto;
-        display:flex;
-        justify-content: center;
     
     
        
     }
     
-    
-    
     header img{
-        width:5em;
-      align-self:flex-start;
-    
-        
-    
+        margin-top:1.5em;
     }
-
-    h1{
+    
+    
+     h1{
         color:#fff;
-        font-size: 5em;
-
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        margin-top:1.5em;
+        margin-bottom:0px;
+        padding:0px;
+    
+    
         }
     
     #motto{
         font-family: 'Roboto', sans-serif;
-        font-size:3em;
+        font-size:.7em;
         font-style:italic;
         color:#fff;
-        
+        padding:0px;
+        margin:0px;
+       
       
+    }
+    
+    #flexheader{ 
+        display:flex;
+        justify-content:center;
+    
+    }
+    
+    #headertext{
+        padding-bottom:1.5em;
+    
     }
     
     
@@ -301,6 +318,7 @@ article img{
 #map{
    width:35%;
    box-shadow:0 0 3px #000;
+   float:left;
  
 
 }

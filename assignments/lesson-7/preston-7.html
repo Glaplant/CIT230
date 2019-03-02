@@ -6,7 +6,6 @@
         <meta name="description" content="preston town weather site">
         <link href="css/normalize.css" type="text/css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/small-7.css">
-        <link rel="stylesheet" type="text/css" href="css/medium-7.css">
         <link rel="stylesheet" type="text/css" href="css/large-7.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <script src="scripts/hamburger.js"></script>
@@ -72,9 +71,9 @@
                 <ul class="right">
                     <li >Sunny</li>
                     <li>76&deg;F</li>
-                    <li>78&deg;F</li>
+                    <li id="windchill">78&deg;F</li>
                     <li>69%</li>
-                    <li id="windchill">""</li>
+                    <li>5mph</li>
                    </ul>
                 </section>
                  <picture>
@@ -110,7 +109,7 @@
                 </div>
             </article>
             <section id="bottom">
-                <div>
+                <div class="gridcontainer" >
                     <h3 id="cloudswatching">Clouds Watching</h3>
                     <address>
                         <div class="street">
@@ -128,7 +127,7 @@
                 </div>
             </section>
           </main>
-        <footer>
+        <footer class="clearfix">
             <p> &copy;2019 Clouds Watching | Attributions | Greg La Plant </p>
                 <p id="currentdate">why dosent this work</p>
 

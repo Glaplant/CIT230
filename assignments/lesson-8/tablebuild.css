@@ -13,29 +13,50 @@ body,html{
 }
 
 
+table{
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    margin-top:1em ;
+}
+
+
+thead th {
+    font-size:2em;
+    background-color: ;
+
+}
+
 th{
-    background-color:#7fb9c2;
+    background-color:#628ca6;
     text-align: center;
+    border: 1px solid #000;
+    padding:.5em;
 }
 
 
         tr:nth-child(even) td {
             background-color:#e7ffed;
+            border: 1px solid #000;
           }  
           
           tr:nth-child(odd) td {
             background-color:#e7f0ed;
+            border: 1px solid #000;
           } 
 
 
 td{
     text-align: center;
+    border: 1px solid #000;
+    padding:.5em;
 
 }
 
 
 table{
-    border: 2px solid #e7f0ed;
+    
     box-shadow: 2px 2px 1em #000; 
 
 }
@@ -45,7 +66,8 @@ table{
     color:#fff;
 }
 
-tfoot{
-    margin-top:.2em;
+tfoot td {
+
     background-color:#7fb9c2;
+    font-size:.8em;
 }
