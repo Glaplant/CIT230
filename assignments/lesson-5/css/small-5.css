@@ -1,4 +1,4 @@
-@media  (max-width: 600px) {
+
     body{
         min-width:320px;
         max-width:600px;
@@ -347,7 +347,6 @@ footer{
     content:"";
     display:table;
     clear:both;
-}
 }
 
 
