@@ -22,10 +22,13 @@ table{
 }
 
 
-thead th {
-    font-size:2em;
-    background-color: ;
+thead th{
 
+    font-size:2em;
+}
+
+tbody th{
+    color:white ;
 }
 
 th{
@@ -57,7 +60,7 @@ td{
 
 table{
     
-    box-shadow: 2px 2px 1em #000; 
+    box-shadow: 5px 5px 1em #000; 
 
 }
 
