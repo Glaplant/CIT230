@@ -15,10 +15,11 @@
            
             
         <header>
-            <section><img src="images/sun.png" alt="vector sun art" >
-            <h1>Clouds Watching</h1>
-            <p class="motto">Relax, it's just the weather.</p>
-            </section>  
+                <img src="images/sun_64x64.png" alt="vector sun art">
+                <div id= "headertext">
+                        <h1>Clouds Watching</h1>
+                        <p id="motto">Relax, it's just the weather.</p>
+                </div>
         </header>
     
             <nav>
@@ -51,37 +52,30 @@
                 <h2>
                     Preston Idaho
                 </h2>
-
-                <picture>
-                   >
-                    <img class="small" src="images/Town10.jpg" alt="picture of town" >
-                    <img class="large" src="images/Town50jpg" alt="picture of town" >
-                </picture>
-                <section id="weatherBox" class="clearfix">
-                <h3>Weather Summary</h3>
-                <ul class="left">
-                    <li >Currently:</li>
-                    <li >High:</li>
-                    <li >Windchill:</li>
-                    <li >Humidity:</li>
-                    <li >Windspeed:</li>
-                </ul>
-                <ul class="right">
-                    <li >Sunny</li>
-                    <li>76&deg;F</li>
-                    <li>78&deg;F</li>
-                    <li>69%</li>
-                    <li >5mph</li>
-                   </ul>
-                </div>
-
-                  
+                 <section id="weatherBox" class="clearfix">
+                        <h3 id="weathersummary">Weather Summary</h3>
+                        <ul class="left">
+                            <li >Currently:</li>
+                            <li >High:</li>
+                            <li >Windchill:</li>
+                            <li >Humidity:</li>
+                            <li >Windspeed:</li>
+                        </ul>
+                        <ul class="right">
+                            <li >Sunny</li>
+                            <li>76&deg;F</li>
+                            <li id="windchill">78&deg;F</li>
+                            <li>69%</li>
+                            <li>5mph</li>
+                           </ul>
                 </section>
+                <img class="small" src="images/Town10.jpg" alt="picture of town" >
+                <!-- <img class="large" src="images/Town50.jpg" alt="picture of town" >-->
                 <section>
-                <h3 class="large" id="forecast">5 Day Forecast</h3>
-                <img class="large" src="images/weather.jpg">
-                </section>
-                <article id="middle">
+                        <h3 class="large" id="forecast">5 Day Forecast</h3>
+                            <img class="large" src="images/weather.jpg" alt="5day forecast">
+                        </section>
+                    <article id="middle">
                         <img src= "images/park.png" alt="people in park">
                         <h2 id="founders">Founders Day Fresco</h2>
                         <p id="author">By Janica Juarez</p>
@@ -97,17 +91,24 @@
         
                         </div>
                     </article>
-            <section id="bottom">
-                    <h3>Clouds Watching</h3>
-                    <address>
-                        <p class="street">30 N 1st E</p>
-                        <p class="street">Preston ID,83263</p>
-                        <p class="contact">123.456.1234</p>
-                        <p class="contact" href="mailto:cloudswatching.com">Clouds watching.com</p>
-                    </address>
-                <img id="map" src="images/map.gif" alt="map">
-
-            </section>
+                    <section id="bottom">
+                        <div class="gridcontainer" >
+                            <h3 id="cloudswatching">Clouds Watching</h3>
+                            <address>
+                                <div class="street">
+                                <p>30 N 1st E </p>
+                                <p >Preston ID,83263</p>
+                                </div>
+                                <div class="contact">
+                                <p>123.456.1234 &#9742;</p>
+                                <p>Clouds watching.com  &#9993;</p>
+                                </div>
+                            </address>
+                        </div>
+                        <div>
+                                <img id="map" src="images/map.gif" alt="map">
+                        </div>
+                    </section>
           
 
         </main>
