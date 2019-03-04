@@ -150,11 +150,7 @@ nav ul.hide{
  /*----------------------top---------------------------------------------*/
  
  
- main{
-    width:90%;
-    margin-right:auto;
-    margin-left:auto;
-} 
+
 
 /* h2 Preston*/
  main>h2{
@@ -168,13 +164,14 @@ nav ul.hide{
 }
 
 #town{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    width:90%;
    box-shadow: 0 5px 10px #000;
    position:relative;
-   bottom:10em;
+ bottom:10em;
    z-index:1;
+   left:5%;
+   margin-bottom:-8em;
+ 
 
 
 }
@@ -191,7 +188,7 @@ nav ul.hide{
         width:10em;
         color:#fff;
         position:relative;
-        left:.5em;
+        left:5%;
         top:.5em;
         z-index:2;
     }

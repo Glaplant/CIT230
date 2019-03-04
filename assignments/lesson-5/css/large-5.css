@@ -7,10 +7,11 @@
         margin:0;
         padding:0;
         overflow-x:hidden;
+        font-family: 'Roboto', sans-serif;
     }
     
     p{
-        font-family: 'Roboto', sans-serif;
+       
         font-size:1em;
     
     }
@@ -202,6 +203,7 @@
         top:5.5em;
         z-index:2;
         padding-bottom:1em;
+        box-shadow:0 0 1em #000 ;
 
     }
     
@@ -277,8 +279,7 @@
     
     article img{
        display:block;
-       margin-right:auto;
-       margin-left:auto;
+       float:right;
        padding-top:10px;
     
     }
@@ -290,7 +291,7 @@
     
     
     
-     /*bottom*/
+     /*footer*/
     
      #cloudswatching{
         font-family: 'Roboto', sans-serif, bold;
@@ -324,7 +325,7 @@
         margin-top:2em;
     }
     
-    #map{
+    .map{
       
        float:left;
         padding-bottom:10px;
@@ -335,27 +336,21 @@
     address{
         font-style:normal;
         padding-left:9.5%;
+        float:left;
         
     }
-     /*footer*/  
+    
         
-    
-    
-    footer p{
-        font-family: 'Roboto', sans-serif;
-        font-size:0.75em;
-       
-    
-    }
-    
-    
-    footer{
+
+
+    #copyright{
         background-color:#2d2e86;
         color:#fff;
         text-align:center;
         padding-top:10px;
         padding-bottom:10px;
         width:100%;
+        font-size:0.75em;
         clear:both;
     
     }
