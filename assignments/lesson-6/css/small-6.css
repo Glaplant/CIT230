@@ -153,230 +153,245 @@ h1{
     
     
      /*----------------------top---------------------------------------------*/
-     
-     
-     main{
-        width:90%;
-        margin-right:auto;
-        margin-left:auto;
-    } 
-    
-    /* h2 Preston*/
-     main>h2{
-        font-family: 'Roboto', sans-serif;
-        font-size:1.75em;
-        text-align: center;
-        margin-bottom:.7em;
-        
-       
-    
-    }
-    
-    #town{
-        width:100%;
-        margin-left:auto;
-        margin-right:auto;
-       box-shadow: 0 5px 10px #000;
-       position:relative;
-       bottom:10em;
-       z-index:1;
-    
-    
-    }
-    
-    
-    /* weather continer */
-    
-    
-    
-    
-    
-        #weatherBox{
-            background-color:rgba(45,46,134,60%);
-            width:10em;
-            color:#fff;
-            position:relative;
-            left:.5em;
-            top:.5em;
-            z-index:2;
-        }
-    
-    
-    
-    
-    #weathersummary{
-        font-family: 'Roboto', sans-serif, bold;
-        font-size:1em;
-        padding-top: 5%;
-        padding-bottom:5%;
-        text-align: center;
-        border-bottom: 2px solid #fff;
-      
-    }
-    
-    
-    main ul{
-        list-style-type:none;
-    
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .left{
-        font-size:1em;
-        text-align:right;
-        font-family: 'Roboto', sans-serif;
-        padding-left:.5em;
-        float:left;
-        margin-top:0px;
-       
-       
-        
-        
-      
-       
-     }
-    
-    .right{
-        font-family: 'Roboto', sans-serif;
-        font-weight:bold;
-        color: #eccb0b;
-        font-size:1em;
-        padding-left:.5em;
-        float:left;
-        margin-top:0px;
-       
-        
-        
-       
-        
-       
-        
-       
-     }
-    
-    
-    .large{
-         display:none;
-     }
-    
-    
-    
-     /*--------------------middle---------------------------------*/
-     #middle{
-        background-color:#9294c9;
-        margin-right:5%;
-        margin-left:5%;
-        width:90%;
-        border: 1px solid #000;
-    }
-    
-    
-    
-    #founders{
-        font-family: 'Roboto', sans-serif;
-        font-size:1.75em;
-        margin-left: 22.038;
-        margin-left: 22.038;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-left: 5%;
-        padding-top:10px;
-    
-        
-    
-    
-    }
-    
-    article img{
-        width:90%;
-       display:block;
-       margin-right:auto;
-       margin-left:auto;
-       padding-top:10px;
-    
-    }
-    
-    article p{
-        padding-left:20px;
-        padding-right:20px;
-    }
-    
-    
-    
-    
-     /*bottom*/
-    
-     #cloudswatching{
-        font-family: 'Roboto', sans-serif, bold;
-        font-size:1em;
-        padding-top:2%;
-        margin-left:9.5%;
-    }
-    
-     #bottom{
-        width:100%;
-        font-style:normal;
-        background-color:#9294c9;
-    
-    }
-    
-    .street{
-        line-height:.5em;
-    
-    }
-    
-    .contact{
-        line-height:.5em; 
-        margin-top:2em;
-    }
-    
-    #map{
-        width:90%;
-        display:block;
-        margin-right:auto;
-        margin-left:auto;
-        padding-bottom:10px;
-        
-    
-    }
-    
-    address{
-        font-style:normal;
-        padding-left:9.5%;
-        
-    }
-    
-     /*footer*/  
-        
-    
-    
-    footer p{
-        font-family: 'Roboto', sans-serif;
-        font-size:0.75em;
-       
-    
-    }
-    
-    
-    footer{
-        background-color:#2d2e86;
-        color:#fff;
-        text-align:center;
-        padding-top:10px;
-        padding-bottom:10px;
-        width:100%;
-    
-    }
-    
-    .clearfix:after{
-        content:"";
-        display:table;
-        clear:both;
-    }
-    
+
+
+
+
+ /* h2 Preston*/
+ main>h2{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.75em;
+    text-align: center;
+    margin-bottom:.7em;
+    
+   
+
+}
+
+main img.small{
+    width:90%;
+   box-shadow: 0 5px 10px #000;
+   position:relative;
+   bottom:10em;
+   z-index:1;
+   left:5%;
+   margin-bottom:-8em;
+ 
+
+
+}
+/* weather continer */
+
+
+
+
+
+#weatherBox{
+    background-color:rgba(45,46,134,60%);
+    width:10em;
+    color:#fff;
+    position:relative;
+    left:.5em;
+    top:.5em;
+    z-index:2;
+}
+
+
+
+
+#weathersummary{
+font-family: 'Roboto', sans-serif, bold;
+font-size:1em;
+padding-top: 5%;
+padding-bottom:5%;
+text-align: center;
+border-bottom: 2px solid #fff;
+
+}
+
+main ul{
+    list-style-type:none;
+
+}
+
+
+
+
+
+
+
+.left{
+    font-size:1em;
+    text-align:right;
+    font-family: 'Roboto', sans-serif;
+    padding-left:.5em;
+    float:left;
+    margin-top:0px;
+   
+   
+    
+    
+  
+   
+ }
+
+.right{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    color: #eccb0b;
+    font-size:1em;
+    padding-left:.5em;
+    float:left;
+    margin-top:0px;
+   
+}
+
+
+
+ /*middle*/
+ #middle{
+    background-color:#9294c9;
+    margin-right:5%;
+    margin-left:5%;
+    width:90%;
+    border: 1px solid #000;
+}
+
+article img{
+    width:90%;
+   display:block;
+   margin-right:auto;
+   margin-left:auto;
+   padding-top:10px;
+
+}
+
+#Mcontentwrapper{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#founders{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.75em;
+    margin:.5em 0 0 0;
+
+}
+
+#author{
+    margin-top:0;
+    padding-left:0;
+}
+
+
+
+article p{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+
+
+ /*footer*/
+
+
+
+ #bottom{
+    width:100%;
+    font-style:normal;
+    background-color:#9294c9;
+    margin-top:1em;
+
+}
+
+
+#cloudswatching{
+    font-family: 'Roboto', sans-serif, bold;
+    font-size:1em;
+    padding-top:5%;
+    margin:0;
+
+}
+
+
+  
+
+address{
+    font-style:normal;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+} 
+
+address ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    display:inline-block;
+    padding:1em;
+    line-height:1.5em; 
+    
+}
+
+
+#bold{
+    font-size:1.2em;
+    font-weight: bold;
+
+}
+
+#gap{
+    margin-top:.5em;
+
+}
+
+
+
+
+
+
+#positioning
+{
+text-align:center;
+    
+  
+
+  
+
+
+}
+
+footer img{
+    width:90%;
+  
+padding:1em;
+    
+
+}
+
+
+
+    
+
+
+#copyright{
+    background-color:#2d2e86;
+    color:#fff;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+    font-size:0.75em;
+
+}
+
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+}
+
+
