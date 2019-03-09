@@ -255,14 +255,18 @@ main ul{
     border: 1px solid #000;
 }
 
-article img{
+#parkimgS{
     width:90%;
    display:block;
    margin-right:auto;
    margin-left:auto;
    padding-top:10px;
-
 }
+
+#parkimgL{
+    display:none;
+}
+
 
 #Mcontentwrapper{
     width:90%;
@@ -391,5 +395,4 @@ padding:1em;
     clear:both;
 }
 }
-
 

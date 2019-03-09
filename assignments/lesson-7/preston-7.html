@@ -18,9 +18,10 @@
            
             
         <header id="flexheader">
+            
             <picture>
-                <source media="(min-width:601px)"  srcset ="images/sun.png">
-            <img src="images/sun_64x64.png" alt="vector sun art" >
+                <source media="(min-width:601px)"  srcset ="images/sun150px.png">
+            <img src="images/sun69px.png" alt="vector sun art" >
             </picture>
             <div id= "headertext">
             <h1>Clouds Watching</h1>
@@ -77,8 +78,7 @@
                    </ul>
                 </section>
                  <picture>
-                   <source  media="(min-width:601px) and (max-width:999px)" srcset= "images/Town50.jpg" >
-                    <source  media="(min-width:1000px)" srcset= "images/Town75.jpg" >
+                    <source  media="(min-width:1000px)" srcset="images/Townlarge.jpg" >
                     <img id="town" src="images/Town10.jpg" alt="picture of town" >
                 </picture>
                 
@@ -92,9 +92,8 @@
                 </section>
             <article id="middle">
                 <picture>
-                <source  media="(min-width:601px) and (max-width :1000px)" srcset= "images/Park400px.jpg"  >
-                    <source  media="(min-width:1000px)"  srcset= "images/Park600px.jpg"  >
-                <img src= "images/Park210px.jpg" alt="people in park">
+                    <source  media="(min-width:1000px)"  srcset= "images/park_50.jpg"   >
+                <img src= "images/Park_50@0,75x.jpg" alt="people in park">
                 </picture>
                 <h2 id="founders">Founders Day Fresco</h2>
                 <p id="author"><i>By Janica Juarez</i></p>
@@ -110,30 +109,32 @@
 
                 </div>
             </article>
-            <section id="bottom">
-                <div class="gridcontainer" >
-                    <h3 id="cloudswatching">Clouds Watching</h3>
-                    <address>
-                        <div class="street">
-                        <p>30 N 1st E </p>
-                        <p >Preston ID,83263</p>
-                        </div>
-                        <div class="contact">
-                        <p>123.456.1234 &#9742;</p>
-                        <p>Clouds watching.com  &#9993;</p>
-                        </div>
-                    </address>
-                </div>
-                <div>
-                        <img id="map" src="images/map.gif" alt="map">
-                </div>
-            </section>
-          </main>
-        <footer class="clearfix">
-            <p> &copy;2019 Clouds Watching | Attributions | Greg La Plant </p>
-                <p id="currentdate">why dosent this work</p>
+            <footer id="bottom" class="clearfix">
+                    <div id="largewrapper">
+                         <address>
+                            <ul>
+                             <li id="bold">Clouds Watching </li>
+                             <li>30 N 1st E </li>
+                             <li>Preston ID,83263</li>
+                             <li id="gap">&#9742;  123.456.1234 </li>
+                             <li>&#9993;  Clouds watching.com </li>
+                             </ul>
+                             
+                         </address>
+                     
+                    
+                    <div id="positioning">
+                             <img class="small" src="images/map350px.png" alt="map">
+                             <img class="large"  src="images/map350px.png" alt="map">
+                    </div>
+                 </div>
+                    
+                     <div id="copyright">
+                             <p> &copy 2020 Clouds Watching | Attributions | Greg La Plant </p>
+                             <p>Wendsday May 20, 2020</p>
+                     </div>
 
-        </footer>
+     </footer>
         <script src="scripts/currentdate.js"></script>
        
 

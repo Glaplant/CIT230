@@ -1,54 +1,41 @@
-@media (min-width: 1281px){
+@media screen and (min-width: 601px){
 
-    body,main,footer{
-            min-width:1281px;
-            
-        }
     
+
     html, body{
         width:100%;
         height:100%;
         margin:0;
         padding:0;
         overflow-x:hidden;
+        font-family: 'Roboto', sans-serif;
     }
     
-   h3,h2,h1,li, p{
-        font-family: 'Roboto', sans-serif;
+    p{
+       
         font-size:1em;
     
+    }
+    
+    ul {
+    
+        list-style:none;
+        padding: 0;
+        margin:0;
+    
+    }
+
+    main{
+        width:960px;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     
     
      /*---------------------header-------------------*/
     
-    
-    
-    
-     h1{
-        color:#fff;
-        font-size: 5em;
-        margin-left: 35%;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        margin-top: 13%;
-        margin-bottom: 0px;
-        }
-    
-    #motto{
-        font-family: 'Roboto', sans-serif;
-        font-size:3em;
-        font-style:italic;
-        color:#fff;
-        margin-bottom: 5%;
-        margin-top: 1%;
-        padding-bottom: 5%;
-      
-    }
-    
-    header{
+     header{
       
         background-color:#2d2e86;
         border: 1px solid #000;
@@ -58,6 +45,11 @@
     
     
        
+    }
+
+    #headerwrapper{
+        text-align:center;
+    
     }
     
     
@@ -74,6 +66,37 @@
         
     
     }
+
+    #headertext{
+        display:inline-block;
+        padding-bottom:3.5em;
+        text-align:center;
+    
+    }
+    
+    
+     h1{
+        color:#fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 4.5em;
+        margin-top:1em;
+        margin-bottom:0px;
+        padding:0px;
+        text-align: left;
+        }
+    
+        #motto{
+            font-family: 'Roboto', sans-serif;
+            font-size:1.7em;
+            font-style:italic;
+            color:#fff;
+            padding:0px;
+            margin:0px;
+            text-align: left;
+          
+        }
+    
+
     
     
 
@@ -132,429 +155,254 @@ nav ul{
       
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      @media screen and (min-width: 601px){
+        
+/*----------------------top---------------------------------------------*/
     
-
-        html, body{
-            width:100%;
-            height:100%;
-            margin:0;
-            padding:0;
-            overflow-x:hidden;
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        p{
-           
-            font-size:1em;
-        
-        }
-        
-        ul {
-        
-            list-style:none;
-            padding: 0;
-            margin:0;
-        
-        }
+  
     
-        main{
-            width:960px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        
-        
-         /*---------------------header-------------------*/
-        
-    header{
-      
-        background-color:#2d2e86;
-        border: 1px solid #000;
-        box-shadow: 0 0 30px #000;
-        width:100%;
-        overflow:auto;
-        
     
-    }
-    
-    #headerwrapper{
-        text-align:center;
-    
-    }
-    
-    header img{
-        position:relative;
-        top:3.5em;
-        padding-bottom:2em;
+     /* h2 Preston*/
+     main>h2{
+        font-family: 'Roboto', sans-serif;
+        font-size:1.75em;
+        text-align: center;
+        margin-bottom:-2.7em;
         
        
     
     }
     
-    #headertext{
-        display:inline-block;
-        padding-bottom:3.5em;
+   #town{
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+       box-shadow: 0 5px 10px #000;
+       position:relative;
+       bottom:10em;
+       z-index:1;
+       display:inline-block;
+       margin-bottom:5em;
+    
+    
+    }
+    /* weather continer */
+    
+    
+    
+    
+    
+    #weatherBox{
+        background-color:rgba(45,46,134,60%);
+        width:20em;
+        color:#fff;
+        position:relative;
+        left:.5em;
+        top:5.5em;
+        z-index:2;
+        padding-bottom:1em;
+        box-shadow:0 0 1em #000 ;
+
+    }
+    
+    #weathersummary{
+    font-family: 'Roboto', sans-serif, bold;
+    font-size:2em;
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    margin-bottom:0;
+    }
+    
+    main ul{
+        list-style-type:none;
+    
+    }
+
+    #forecast{
         text-align:center;
+        margin-bottom:1.5em;
+        margin-top:-5em;
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    .left{
+        font-size:1.5em;
+        text-align:right;
+        font-family: 'Roboto', sans-serif;
+        float:left;
+        margin-top:0px;
+        margin-left:15%;
+        margin-right:auto;
+        padding-top:.5em;
+       }
+    
+    .right{
+        font-family: 'Roboto', sans-serif;
+        font-weight:bold;
+        color: #eccb0b;
+        font-size:1.5em;
+        padding-left:.5em;
+        padding-top:.5em;
+        float:left;
+        margin-top:0px;
+       
+    }
+    
+    
+    .small{
+         display:none;
+     }
+    
+     /*middle*/
+     #middle{
+        background-color:#9294c9;
+        margin-right:5%;
+        margin-left:5%;
+        width:90%;
+        border: 1px solid #000;
+    }
+
+    #founders{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.75em;
+    margin:.5em 0 0 .5em;
+        
+    
     
     }
     
-    h1{
-        color:#fff;
-        font-family: 'Roboto', sans-serif;
-        font-size: 4.5em;
-        margin-top:1em;
-        margin-bottom:0px;
-        padding:0px;
-        text-align: left;
+  
+
+#parkimgL {
+    display: block;
+    padding-top: 7em;
+    float: right;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#parkimgS{
+    display:none;
+}
+
     
     
-        }
-    
-    #motto{
-        font-family: 'Roboto', sans-serif;
-        font-size:1.7em;
-        font-style:italic;
-        color:#fff;
-        padding:0px;
-        margin:0px;
-        text-align: left;
-      
+    article p{
+        padding-left:20px;
+        padding-right:20px;
+        float:left;
+        width:40%;
     }
-        
-        
-        /*nav*/
-        
-        
-        
-        
-        
-        nav{
-           
-            background-color:#9294c9;
-            width:100%;
-            text-align:center;
-            
-           
-           
-        
-        }
     
-        nav ul{
-            list-style-type:none;
-            margin:0 0 0 30em;
-            padding:0;
-           
-        }
-        
-        nav li{
-           text-align:center;
-           float:left;
-           border-right:2px solid #fff;
-            
-            
-        }
     
-        nav li:last-child{
-            border:none;
-        }
-        
-        li>a{
-            color:#fff;
-            font-family: 'Roboto', sans-serif;
-            font-size:1em;
-            text-decoration:none;
-            display:block;
-            padding:1em;
-           
-           
-           }
-        
-        
-        
-        
-        nav li:visited{
-            background-color:#2d2e86;
-        
-        }
-        
-        nav li:hover{
-            background-color:#2d2e86;
-           font-weight:bold;
-            
-        
-        }
-        
-        nav li:active{
-            background-color:#2d2e86;
-             font-weight:bold;
-        
-        
-        }
-        
-        section>h1{
-            text-align:center;
-        
-        
-        }
-        
-         /*----------------------top---------------------------------------------*/
-        
-      
-        
-        
-         /* h2 Preston*/
-         main>h2{
-            font-family: 'Roboto', sans-serif;
-            font-size:1.75em;
-            text-align: center;
-            margin-bottom:-2.7em;
-            
-           
-        
-        }
-        
-       #town{
-            width:100%;
-            margin-left:auto;
-            margin-right:auto;
-           box-shadow: 0 5px 10px #000;
-           position:relative;
-           bottom:10em;
-           z-index:1;
-           display:inline-block;
-           margin-bottom:5em;
-        
-        
-        }
-        /* weather continer */
-        
-        
-        
-        
-        
-        #weatherBox{
-            background-color:rgba(45,46,134,60%);
-            width:20em;
-            color:#fff;
-            position:relative;
-            left:.5em;
-            top:5.5em;
-            z-index:2;
-            padding-bottom:1em;
-            box-shadow:0 0 1em #000 ;
     
-        }
-        
-        #weathersummary{
+     /*footer*/
+
+
+     footer{
+         clear:both;
+         margin-top:3em;
+     }
+    
+     #cloudswatching{
         font-family: 'Roboto', sans-serif, bold;
-        font-size:2em;
-        padding-top: 5%;
-        padding-bottom:5%;
-        text-align: center;
-        border-bottom: 2px solid #fff;
-        margin-bottom:0;
-        }
-        
-        main ul{
-            list-style-type:none;
-        
-        }
-    
-        #forecast{
-            text-align:center;
-            margin-bottom:1.5em;
-            margin-top:-5em;
-    
-        }
-        
-        
-        
-        
-        
-        
-        
-        .left{
-            font-size:1.5em;
-            text-align:right;
-            font-family: 'Roboto', sans-serif;
-            float:left;
-            margin-top:0px;
-            margin-left:15%;
-            margin-right:auto;
-            padding-top:.5em;
-           }
-        
-        .right{
-            font-family: 'Roboto', sans-serif;
-            font-weight:bold;
-            color: #eccb0b;
-            font-size:1.5em;
-            padding-left:.5em;
-            padding-top:.5em;
-            float:left;
-            margin-top:0px;
-           
-        }
-        
-        
-        .small{
-             display:none;
-         }
-        
-         /*middle*/
-         #middle{
-            background-color:#9294c9;
-            margin-right:5%;
-            margin-left:5%;
-            width:90%;
-            border: 1px solid #000;
-        }
-    
-        #founders{
-        font-family: 'Roboto', sans-serif;
-        font-size:1.75em;
-        margin:.5em 0 0 .5em;
-            
-        
-        
-        }
-        
-        article img{
-           display:block;
-           padding-top:10px;
-           float:right;
-           padding-left:2em;
-        
-        }
-    
-        
-        
-        article p{
-            padding-left:20px;
-            padding-right:20px;
-            float:left;
-            width:50%;
-        }
-        
-        
-        
-         /*footer*/
-    
-    
-         footer{
-             clear:both;
-             margin-top:3em;
-         }
-        
-         #cloudswatching{
-            font-family: 'Roboto', sans-serif, bold;
-            font-size:1em;
-            padding-top:5%;
-            margin:0;
-        
-        }
-        
-         #bottom{
-            width:100%;
-            font-style:normal;
-            background-color:#9294c9;
-        
-            
-        
-        
-        }
-    
-        #largewrapper{
-            width:960px;
-            margin-left:auto;
-            margin-right:auto;
-            
-        }
-    
-        footer h3{
-            font-size:1.5em;
-    
-    
-        }
-        
-        .street{
-            line-height:.5em;
-        
-        }
-        
-        .contact{
-            line-height:.5em; 
-            margin-top:2em;
-        }
-        
-      
-        
-        address{
-            font-style:normal;
-            padding-left:9.5%;
-            float:left;
-            
-        }
-    
-    
-        #bold{
-            margin-top:3em;
-            margin-right:5em;
-        font-size:1.2em;
-        font-weight: bold;
+        font-size:1em;
+        padding-top:5%;
+        margin:0;
     
     }
     
-    #gap{
-        margin-top:.5em;
+     #bottom{
+        width:100%;
+        font-style:normal;
+        background-color:#9294c9;
+    
+        
+    
     
     }
-            
-    
-    
-        #copyright{
-            background-color:#2d2e86;
-            color:#fff;
-            text-align:center;
-            padding-top:10px;
-            padding-bottom:10px;
-            width:100%;
-            font-size:0.75em;
-            clear:both;
+
+    #largewrapper{
+        width:960px;
+        margin-left:auto;
+        margin-right:auto;
         
-        }
-    
-        #postioning img {
-            float:right;
-            margin-top:2em;
-            margin-bottom:2em;
-        }
-        
-        
-        .clearfix:after{
-            content:"";
-            display:table;
-            clear:both;
-        }
     }
+
+    footer h3{
+        font-size:1.5em;
+
+
+    }
+    
+    .street{
+        line-height:.5em;
+    
+    }
+    
+    .contact{
+        line-height:.5em; 
+        margin-top:2em;
+    }
+    
+  
+    
+    address{
+        font-style:normal;
+        padding-left:9.5%;
+        float:left;
         
+    }
+
+
+    #bold{
+        margin-top:3em;
+        margin-right:5em;
+    font-size:1.2em;
+    font-weight: bold;
+
+}
+
+#gap{
+    margin-top:.5em;
+
+}
         
-        
+
+
+    #copyright{
+        background-color:#2d2e86;
+        color:#fff;
+        text-align:center;
+        padding-top:10px;
+        padding-bottom:10px;
+        width:100%;
+        font-size:0.75em;
+        clear:both;
+    
+    }
+
+    footer img {
+        float:left;
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+    
+    
+    .clearfix:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+    
+    
+    

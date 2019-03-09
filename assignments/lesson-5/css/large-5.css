@@ -286,13 +286,20 @@ h1{
     
     }
     
-    article img{
-       display:block;
-       padding-top:10px;
-       float:right;
-       padding-left:2em;
-    
-    }
+  
+
+#parkimgL {
+    display: block;
+    padding-top: 7em;
+    float: right;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#parkimgS{
+    display:none;
+}
 
     
     
@@ -300,7 +307,7 @@ h1{
         padding-left:20px;
         padding-right:20px;
         float:left;
-        width:50%;
+        width:40%;
     }
     
     
@@ -391,10 +398,10 @@ h1{
     
     }
 
-    #postioning img {
-        float:right;
-        margin-top:2em;
-        margin-bottom:2em;
+    footer img {
+        float:left;
+        padding-top:1em;
+        padding-bottom:1em;
     }
     
     
