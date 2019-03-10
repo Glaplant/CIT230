@@ -28,8 +28,6 @@
                     <p id="motto">Relax, it's just the weather.</p>
                     </div>  
                 </header>
-            
-                    <nav class="clearfix">
     
             <nav class="clearfix">
                 
@@ -57,30 +55,43 @@
                         </li>
                   </ul>
                 </nav>
-                <main>
-                    <div class="gridcontainer">
-                        <picture>
-                          <source>
-                          <img>
+                <main id="flexparent">
+                    <div >
+                        <div class="jsoncontent"></div>
+                    
+                          <img src="images/sunset300px.jpg"  alt="">
 
-                    </picture>
+                   
                     </div>
-                    <div  class="gridcontainer">
-                        <picture>
-                          <source>
-                          <img>
+                    <div>
+                        <div class="jsoncontent"></div>
+                        
+                            <img src="images/sunset300px.jpg"  alt="">
     
-                        </picture> </div>
-                 <div  class="gridcontainer">
-                        <picture>
-                          <source>
-                          <img>
+                        </div>
+                 <div>
+                        <div class="jsoncontent"></div>
+                       
+                            <img src="images/sunset300px.jpg"  alt="picture of sunset">
     
                         </picture></div>
                    
                 </main>
+<script>
+               
+               var div = document.querySelector('div');
+               var requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
+               var request = new XMLHttpRequest();
+               request.open('GET',requestURL);
+               request.responseType ='json';
+               request.send();
+               request.onload=function(){
 
 
+
+
+               }
+               </script>
 
                 <footer id="bottom" class="clearfix">
                         <div id="largewrapper">
@@ -104,7 +115,7 @@
                         
                          <div id="copyright">
                                  <p> &copy 2020 Clouds Watching | Attributions | Greg La Plant </p>
-                                 <p>Wendsday May 20, 2020</p>
+                                 <p id="currentdate">why dosent this work</p>
                          </div>
  
          </footer>

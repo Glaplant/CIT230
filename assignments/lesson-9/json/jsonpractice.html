@@ -27,11 +27,13 @@
     request.open('GET',requestURL);
     request.responseType ='json';
     request.send();
+
     request.onload=function(){
         var superHeroes = request.response;
         populateHeader(superHeroes);
         showHeroes(superHeroes);
     }
+
 
     function populateHeader(jsonObj){
         var myH1 = document.createElement('h1');
@@ -42,6 +44,7 @@
         myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj[ 'formed'];
         header.appendChild(myPara);
     }
+
 
     function showHeroes(jsonObj){
          var heroes = jsonObj['members'];
@@ -63,12 +66,13 @@
                  listItem.textContent = superPowers[j];
                  myList.appendChild(listItem);
              }
+
+
              myArticle.appendChild(myH2);
              myArticle.appendChild(myPara1);
              myArticle.appendChild(myPara2);
              myArticle.appendChild(myPara3);
              myArticle.appendChild(myList);
-
              section.appendChild(myArticle);
          
 
