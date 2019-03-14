@@ -55,18 +55,14 @@
     
     
     header img{
-        width:21%;
-        display:block;
-        float:left;
-        margin-left: 10%;
-        margin-right: 5%;
-        margin-top: 7%;
-        margin-bottom: 2%;
-    
+        position:relative;
+        top:3.5em;
+        padding-bottom:2em;
         
+       
     
     }
-
+    
     #headertext{
         display:inline-block;
         padding-bottom:3.5em;
@@ -74,8 +70,7 @@
     
     }
     
-    
-     h1{
+    h1{
         color:#fff;
         font-family: 'Roboto', sans-serif;
         font-size: 4.5em;
@@ -83,18 +78,20 @@
         margin-bottom:0px;
         padding:0px;
         text-align: left;
+    
+    
         }
     
-        #motto{
-            font-family: 'Roboto', sans-serif;
-            font-size:1.7em;
-            font-style:italic;
-            color:#fff;
-            padding:0px;
-            margin:0px;
-            text-align: left;
-          
-        }
+    #motto{
+        font-family: 'Roboto', sans-serif;
+        font-size:1.7em;
+        font-style:italic;
+        color:#fff;
+        padding:0px;
+        margin:0px;
+        text-align: left;
+      
+    }
     
 
     
