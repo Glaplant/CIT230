@@ -178,7 +178,7 @@ h1{
 
 }
 
-main img.small{
+#town{
     width:90%;
    box-shadow: 0 5px 10px #000;
    position:relative;
@@ -267,17 +267,14 @@ main ul{
     border: 1px solid #000;
 }
 
-#parkimg{
-    width:90%;
-   display:block;
-   margin-right:auto;
-   margin-left:auto;
-   padding-top:10px;
 
-}
 
 #parkimgL{
-    display:none;
+    width:90%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:10px;
 }
 
 #Mcontentwrapper{

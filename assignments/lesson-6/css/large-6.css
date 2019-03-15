@@ -26,11 +26,12 @@
     }
 
     main{
-        width:960px;
+        width:93%;
         margin-left:auto;
         margin-right:auto;
     }
-    
+
+
     
     
      /*---------------------header-------------------*/
@@ -115,25 +116,25 @@ nav{
     }
 
 nav ul li {
-     float:left;
+    display:inline-block;
+    
      
      }
 
 
 nav ul{
         list-style-type:none;
-        width:70%;
-        margin-left:auto;
-        margin-right:auto;
+text-align: center;
      }
 
 
      nav ul li a{
-        display:block;
+        display:inline-block;
         padding:1rem 2rem;
         text-decoration: none;
         color: #fff;
         font-weight:bold;
+    
     
         
           
