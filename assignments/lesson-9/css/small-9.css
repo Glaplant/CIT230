@@ -147,15 +147,6 @@ header img{
     }
 
 
- /*----------------------top---------------------------------------------*/
- 
- 
-
-
-
-
-
-
  /*footer*/
 
 
@@ -214,16 +205,23 @@ address ul{
 
 
 
-#positioning{
+#positioning
+{
 text-align:center;
+    
+  
+
+  
+
+
 }
-
-
 
 footer img{
     width:90%;
-  padding:1em;
+  
+padding:1em;
     
+
 }
 
 
@@ -241,6 +239,17 @@ footer img{
     font-size:0.75em;
 
 }
+
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
+
+
 
 /*------------gallery-------------------*/
 

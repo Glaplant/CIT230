@@ -16,18 +16,21 @@
     <body>
         
            
-              
+                 
             <header id="flexheader">
-            
-                    <picture>
-                        <source media="(min-width:601px)"  srcset ="images/sun150px.png">
-                    <img src="images/sun69px.png" alt="vector sun art" >
-                    </picture>
-                    <div id= "headertext">
-                    <h1>Clouds Watching</h1>
-                    <p id="motto">Relax, it's just the weather.</p>
-                    </div>  
-                </header>
+                    <div id="headerwrapper" class="clearfix">
+                        <picture>
+                                <source  media="(min-width:601)" srcset="images/sun150px.png">
+                                <source  media="(max-width:600)" srcset="images/sun69px.png">
+                                <img  src="images/sun69px.png" alt="vector sun art">
+                         </picture>
+                         <div id= "headertext">
+                            <h1>Clouds Watching</h1>
+                            <p id="motto">Relax, it's just the weather.</p>
+                         </div>
+                     </div>
+                    
+            </header>
     
             <nav class="clearfix">
                 
@@ -36,10 +39,10 @@
                         <ul  id="primaryNav" class="hide">
                         
                         <li class="active">
-                            <a href="#">Home</a>
+                            <a href="index">Home</a>
                         </li>
                         <li class="active">
-                            <a href="preston.html">Preston</a>
+                            <a href="preston-9.html">Preston</a>
                         </li>
                         <li class="active">
                             <a href="#">Soda Springs</a>
@@ -48,7 +51,7 @@
                             <a href="#">Fish Haven</a>
                         </li>
                         <li class="active">
-                            <a href="#">Storm Center</a>
+                            <a href="stormcenter.html">Storm Center</a>
                         </li>
                         <li class="active">
                             <a href="gallery.html">Gallery</a>
@@ -93,39 +96,40 @@
                }
                </script>
 
-                <footer id="bottom" class="clearfix">
-                        <div id="largewrapper">
-                             <address>
-                                <ul>
-                                 <li id="bold">Clouds Watching </li>
-                                 <li>30 N 1st E </li>
-                                 <li>Preston ID,83263</li>
-                                 <li id="gap">&#9742;  123.456.1234 </li>
-                                 <li>&#9993;  Clouds watching.com </li>
-                                 </ul>
-                                 
-                             </address>
-                         
-                        
-                        <div id="positioning">
-                                 <img class="small" src="images/map350px.png" alt="map">
-                                 <img class="large"  src="images/map350px.png" alt="map">
-                        </div>
-                     </div>
-                        
-                         <div id="copyright">
-                                 <p> &copy 2020 Clouds Watching | Attributions | Greg La Plant </p>
-                                 <p id="currentdate">why dosent this work</p>
-                         </div>
- 
-         </footer>
-                <script src="scripts/currentdate.js"></script>
-               
+<footer id="bottom" class="clearfix">
+        <div id="largewrapper">
+             <address>
+                <ul>
+                 <li id="bold">Clouds Watching </li>
+                 <li>30 N 1st E </li>
+                 <li>Preston ID,83263</li>
+                 <li id="gap">&#9742;  123.456.1234 </li>
+                 <li>&#9993;  Clouds watching.com </li>
+                 </ul>
+                 
+             </address>
+         
         
-                    
-            
-                
-         
-         
-            </body>
-        </html>
+        <div id="positioning">
+            <picture>
+                 <img class="small" src="images/map350px.png" alt="map">
+                 <img class="large"  src="images/map350px.png" alt="map">
+        </div>
+     </div>
+        
+         <div id="copyright">
+                 <p> &copy 2020 Clouds Watching | Attributions | Greg La Plant </p>
+                 <p id="currentdate">why dosent this work</p>
+
+             </footer>
+<script src="scripts/currentdate.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
+           
