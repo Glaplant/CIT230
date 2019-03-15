@@ -1,24 +1,31 @@
-@media screen and (max-width:600px){
+@media screen and  (max-width: 600px) {
+  
+
+    html, body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
     
+    body{
+        min-width:320px;
+    }
     
-    body,html{
-    width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-   
-}
-
-body{
-    min-width:320px;
-}
-
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size:1em;
-
-}
+    p{
+        font-family: 'Roboto', sans-serif;
+        font-size:1em;
+    
+    }
+    
+    ul {
+    
+        list-style:none;
+        padding: 0;
+        margin:0;
+    
+    }
 
 
 
@@ -34,21 +41,39 @@ p{
     box-shadow: 0 0 30px #000;
     width:100%;
     overflow:auto;
+
 }
+
+#headerwrapper{
+    text-align:center;
+
+}
+
 
 header img{
-    margin-top:1.5em;
+    position:relative;
+    top:2.5em;
+    padding-bottom:2em;
+    
+   
 
 }
 
+#headertext{
+    display:inline-block;
+    padding-bottom:2.5em;
+    text-align:center;
 
- h1{
+}
+
+h1{
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     margin-top:1.5em;
     margin-bottom:0px;
     padding:0px;
+    text-align: left;
 
 
     }
@@ -60,28 +85,10 @@ header img{
     color:#fff;
     padding:0px;
     margin:0px;
+    text-align: left;
    
   
 }
-
-#flexheader{ 
-    display:flex;
-    justify-content:center;
-
-}
-
-#headertext{
-    padding-bottom:1.5em;
-
-}
-
-
-
-
-/*nav*/
-
-
-
 @media screen and (max-width:600px){
 
 nav{
@@ -147,12 +154,7 @@ nav ul.hide{
 }
 
 
- /*----------------------top---------------------------------------------*/
- 
- 
-
-
-/* h2 Preston*/
+ /* h2 Preston*/
  main>h2{
     font-family: 'Roboto', sans-serif;
     font-size:1.75em;
@@ -167,7 +169,7 @@ nav ul.hide{
     width:90%;
    box-shadow: 0 5px 10px #000;
    position:relative;
- bottom:10em;
+   bottom:10em;
    z-index:1;
    left:5%;
    margin-bottom:-8em;
@@ -175,43 +177,39 @@ nav ul.hide{
 
 
 }
-
-
 /* weather continer */
 
 
 
 
 
-    #weatherBox{
-        background-color:rgba(45,46,134,60%);
-        width:10em;
-        color:#fff;
-        position:relative;
-        left:5%;
-        top:.5em;
-        z-index:2;
-    }
+#weatherBox{
+    background-color:rgba(45,46,134,60%);
+    width:10em;
+    color:#fff;
+    position:relative;
+    left:.5em;
+    top:.5em;
+    z-index:2;
+}
 
 
 
 
 #weathersummary{
-    font-family: 'Roboto', sans-serif, bold;
-    font-size:1em;
-    padding-top: 5%;
-    padding-bottom:5%;
-    text-align: center;
-    border-bottom: 2px solid #fff;
-  
-}
+font-family: 'Roboto', sans-serif, bold;
+font-size:1em;
+padding-top: 5%;
+padding-bottom:5%;
+text-align: center;
+border-bottom: 2px solid #fff;
 
+}
 
 main ul{
     list-style-type:none;
 
 }
-
 
 
 
@@ -243,23 +241,11 @@ main ul{
     float:left;
     margin-top:0px;
    
-    
-    
-   
-    
-   
-    
-   
- }
-
-
-.large{
-     display:none;
- }
+}
 
 
 
- /*--------------------middle---------------------------------*/
+ /*middle*/
  #middle{
     background-color:#9294c9;
     margin-right:5%;
@@ -270,29 +256,33 @@ main ul{
 
 
 
+#parkimgL{
+    width:90%;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:10px;
+}
+
+#Mcontentwrapper{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #founders{
     font-family: 'Roboto', sans-serif;
     font-size:1.75em;
-    margin-left: 22.038;
-    margin-left: 22.038;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 5%;
-    padding-top:10px;
-
-    
-
+    margin:.5em 0 0 0;
 
 }
 
-article img{
-    width:90%;
-   display:block;
-   margin-right:auto;
-   margin-left:auto;
-   padding-top:10px;
-
+#author{
+    margin-top:0;
+    padding-left:0;
 }
+
+
 
 article p{
     padding-left:20px;
@@ -301,77 +291,107 @@ article p{
 
 
 
+ /*footer*/
 
 
-/*bottom*/
-
- #cloudswatching{
-    font-family: 'Roboto', sans-serif, bold;
-    font-size:1em;
-    padding-top:2%;
-    margin-left:9.5%;
-}
 
  #bottom{
     width:100%;
     font-style:normal;
     background-color:#9294c9;
+    margin-top:1em;
 
 }
 
-.street{
-    line-height:.5em;
+
+#cloudswatching{
+    font-family: 'Roboto', sans-serif, bold;
+    font-size:1em;
+    padding-top:5%;
+    margin:0;
 
 }
 
-.contact{
-    line-height:.5em; 
-    margin-top:2em;
-}
 
-#map{
-    width:90%;
-    display:block;
-    margin-right:auto;
-    margin-left:auto;
-    padding-bottom:10px;
-    
-
-}
+  
 
 address{
     font-style:normal;
-    padding-left:9.5%;
-    
-}
-
- /*footer*/  
-    
-
-
-footer p{
     font-family: 'Roboto', sans-serif;
-    font-size:0.75em;
-   
+    text-align:center;
+} 
+
+address ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    display:inline-block;
+    padding:1em;
+    line-height:1.5em; 
+    
+}
+
+
+#bold{
+    font-size:1.2em;
+    font-weight: bold;
+
+}
+
+#gap{
+    margin-top:.5em;
 
 }
 
 
-footer{
+
+
+
+
+#positioning
+{
+text-align:center;
+    
+  
+
+  
+
+
+}
+
+footer img{
+    width:90%;
+  
+padding:1em;
+    
+
+}
+
+
+
+    
+
+
+#copyright{
     background-color:#2d2e86;
     color:#fff;
     text-align:center;
     padding-top:10px;
     padding-bottom:10px;
     width:100%;
+    font-size:0.75em;
 
 }
+
 
 .clearfix:after{
     content:"";
     display:table;
     clear:both;
 }
+}
+
 
 
 
