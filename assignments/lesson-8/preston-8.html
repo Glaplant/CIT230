@@ -17,16 +17,21 @@
         
            
             
-        <header id="flexheader">
-            <picture>
-                <source media="(min-width:601px)"  srcset ="images/sun.png">
-            <img src="images/sun_64x64.png" alt="vector sun art" >
-            </picture>
-            <div id= "headertext">
-            <h1>Clouds Watching</h1>
-            <p id="motto">Relax, it's just the weather.</p>
-            </div>  
-        </header>
+            <header id="flexheader">
+                    <div id="headerwrapper" class="clearfix">
+                        <picture>
+                                <source  media="(min-width:601)" srcset="images/sun150px.png">
+                                <source  media="(max-width:600)" srcset="images/sun69px.png">
+                                <img  src="images/sun69px.png" alt="vector sun art">
+                         </picture>
+                         <div id= "headertext">
+                            <h1>Clouds Watching</h1>
+                            <p id="motto">Relax, it's just the weather.</p>
+                         </div>
+                     </div>
+                    
+            </header>
+             
     
             <nav class="clearfix">
                 
@@ -76,40 +81,37 @@
                     <li>5mph</li>
                    </ul>
                 </section>
-                 <picture>
-                   <source  media="(min-width:601px) and (max-width:999px)" srcset= "images/Town50.jpg" >
-                    <source  media="(min-width:1000px)" srcset= "images/Town75.jpg" >
-                    <img id="town" src="images/Town10.jpg" alt="picture of town" >
-                </picture>
-                
-
-                <section>
-                <h3 class="large" id="forecast">5 Day Forecast</h3>
-                <picture> 
-                    <source media="(min-width:1001px)" srcset= "" >
-                    <img class="large" src="images/weather.jpg" alt="5day forecast">
-                </picture>
-                </section>
-            <article id="middle">
                 <picture>
-                <source  media="(min-width:601px) and (max-width :1000px)" srcset= "images/Park400px.jpg"  >
-                    <source  media="(min-width:1000px)"  srcset= "images/Park600px.jpg"  >
-                <img src= "images/Park210px.jpg" alt="people in park">
+                        <source  media="(min-width: 601px)" srcset="images/Townlarge.jpg">
+                        <source media="(max-width: 600px)" srcset="images/Town10.jpg">
+                        <img   id="town" src="images/Town10.jpg" alt="picture of town" >
                 </picture>
-                <h2 id="founders">Founders Day Fresco</h2>
-                <p id="author"><i>By Janica Juarez</i></p>
-                 <p id="article"> I was recently reflecting upon the founders day event held at
-                     Foundation Park each year. I have been taking the festival for granted
-                     have not been properly engaging in perhaps the most popular community event of the year. In response, I contacted Ms. Sharon via email
-                     and expressed my desire to serve on the event comittee. Well, you guesed it, the phone rings
-                     almost immediately and she promptly asks me to be the event committee chair. 
-                     Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers
-                     and sponsors has escalated beyond what I thought I could feel for such a thing
-                     and...<a href="article.com">continue to full article</a>
-                </p>
+                    <section id="forecast"  class="clearfix">
+                            <h3 class="large"> 5 Day Forecast </h3>
+                            <img class="large" src="images/fivedayforecast.png" alt="5day forecast">
+                    </section>
+                <article id="middle" class="clearfix">
+                        <picture>
+                            <source  media="(min-width: 601px)"  srcset="images/Park_50.jpg">
+                            <source media="(max-width: 600px)"  srcset="images/Park_50@0,75x.jpg">
+                            <img  id="parkimgL" src="images/Park_50@0,75x.jpg"  alt="people in park">
+                        </picture>
+                        <div id="Mcontentwrapper" class="clearfix">
 
-                </div>
-            </article>
+                        <h2 id="founders">Founders Day Fresco</h2>
+                        <p id="author"><i>By Janica Juarez</i></p>
+                         <p id="article"> I was recently reflecting upon the founders day event held at
+                             Foundation Park each year. I have been taking the festival for granted
+                             have not been properly engaging in perhaps the most popular community event of the year. In response, I contacted Ms. Sharon via email
+                             and expressed my desire to serve on the event comittee. Well, you guesed it, the phone rings
+                             almost immediately and she promptly asks me to be the event committee chair. 
+                             Literally, good grief! My appreciation for the years of dedicated, generous service of volunteers
+                             and sponsors has escalated beyond what I thought I could feel for such a thing
+                             and...<a href="article.com">continue to full article</a>
+                        </p>
+        
+                        </div>
+                    </article>
             <footer id="bottom" class="clearfix">
                     <div id="largewrapper">
                          <address>
