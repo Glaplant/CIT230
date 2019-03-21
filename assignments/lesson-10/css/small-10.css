@@ -51,8 +51,7 @@
 
 
 header img{
-    position:relative;
-    top:2.5em;
+   
     padding-bottom:2em;
     
    
@@ -405,13 +404,10 @@ footer a{
 
 /*------------gallery-------------------*/
 
-.shadow{
-    width:;
-    margin-left:auto;
-    margin-right:auto;
-}
-}
 
-
+#gridcontainer{
+    display:flex; 
+   flex-direction: column;
+}
 
 

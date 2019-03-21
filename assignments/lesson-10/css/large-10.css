@@ -462,8 +462,9 @@ nav ul{
         margin: 1rem auto; 
         display:grid; 
         grid-template-columns: 1fr 1fr 1fr; 
-        min-width: 960px;
+        max-width: 960px;
     }
+  
 
     .shadow:hover {
         box-shadow: 0 0 50px #000 ;

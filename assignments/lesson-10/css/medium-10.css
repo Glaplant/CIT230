@@ -159,12 +159,13 @@ nav ul li a:hover{
         
         }*/
 
-        #flexParent{
-            display:flex;
-            flex-direction:column;
-            flex-wrap:wrap ;
-
-        }
+      
+     .gridcontainer{
+        margin: 1rem auto; 
+        display:grid; 
+        grid-template-columns: 1fr 1fr ; 
+        max-width: 960px;
+    }
 
     
 
