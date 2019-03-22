@@ -48,7 +48,7 @@
                             <a href="#">Fish Haven</a>
                         </li>
                         <li class="active">
-                            <a href="#">Storm Center</a>
+                            <a href="stormcenter.html">Storm Center</a>
                         </li>
                         <li class="active">
                             <a href="gallery.html">Gallery</a>
@@ -57,8 +57,8 @@
                 </nav>
 
                 <form method="get" action="thanks.html">
-                    <fieldset>
-                        <legend>Contact</legend>
+                      <fieldset>
+                            <legend>Contact</legend>
 
                                 <!--full name using input of type text and 
                                 is required and only accepts alpha characters with a minimum of five characters 
@@ -74,51 +74,58 @@
                                 <!--phone number using input of type tel and is required-->
                                 <label>Phone</label><br/>
                                 <input  type="tel" name="phone"
-                                 placeholder="1235551234" maxlength="10"></label><br/>
+                                 placeholder="##########" maxlength="10"></label><br/>
 
                                 <!--zip code using input of type number and is required-->
-                                <label>Zipcode:</label><br/>
-                                <input type="number" maxlength="5"></label><br/>
+                                <label for="num">Zip Code:</label><br/>
+                                <input type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"><br>
+                                
 
-                                </fieldset>
-                                <fieldset>
-                                    <legend>Storm Report</legend>
-
+                        </fieldset>
+                        <fieldset>
+                                <legend>Storm Report</legend>
+                                
                                 <!--storm date using input of type date-->
-                                <label>Storm Date:</label><br/>
-                                <input type="date"><br/>
+                                  <label>Storm Date:</label><br/>
+                                  <input type="date"><br/>
                                 
                                 <!--storm type using input with a 
                                    list attribute using a datalist of suggestions including 
                                    "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado."-->
-                                <label>Storm Type:</label><br/>
-                                       <select name="Storm Type"><br/>
-                                       <option value="Please Select">Please Select</option>
-                                       <option value="Flash Flood">Flash Flood</option>
-                                       <option value="Hail">Hail</option>
-                                       <option value="Hurricane">Hurricane</option>
-                                       <option value="Thunderstorm">Thunderstorm</option>
-                                       <option value="Tornado">Tornado</option>
+                               
+                                  <label>Storm Type:</label><br/>
+                                       <input list="storms" name="Storm Type"><br/>
+                                       <datalist>
+                                         <option value="Please Select">Please Select</option>
+                                         <option value="Flash Flood">Flash Flood</option>
+                                         <option value="Hail">Hail</option>
+                                         <option value="Hurricane">Hurricane</option>
+                                         <option value="Thunderstorm">Thunderstorm</option>
+                                         <option value="Tornado">Tornado</option>
+                                       </datalist>
 
                               <!---
                                 storm severity using type range (1 to 10)
                                 with a corresponding label that indicates the current range value from 1 to 10. 
                                 Hint: See the Pen HTML Form example objects -->
 
-                                <label>Storm Severity from 1 to 10</label><br/>
-                                 <input type="range" min="1" max="10"><br/>
+                                  <label>Storm Severity from 1 to 10</label><br/>
+                                  
+                                  <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                                  oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		                         <span id="ratingvalue">5</span><br>
                             
                                 <!--storm region using select with drop-down options of 
                                     "Preston," Soda Springs, and "Fish Haven."-->
 
                                     <label> Storm Region:</label><br/>
                                         <select name="StormRegion"><br/>
-                                        <option value="Please Select">Please Select</option>
+                                        <option value="Please Select">Select Region</option>
                                         <option value="Preston">Preston</option>
                                         <option value="Soda Springs">Soda Springs</option>
                                         <option value="Fish Haven">Fish Haven</option>
                             
-                                </fieldset>
+                      </fieldset>
                                 
                                 <!---Add a first option with the text "Select Region ..." that is shown by 
                                     default but not selectable.
@@ -129,20 +136,17 @@
                                 <!----user in-danger level using input of type radio with 
                                     options and values of "yes," "maybe," and "no."-->
                         <fieldset>
-
-                                    <legend>Danger Level</legend>
-                                    <label>Are you in danger?</label><br/>
+                                 <legend>Danger Level</legend>
+                                    <label>Are you in danger?</label>
                                     <label><input type="radio" name="danger"  value="Yes">Yes</label>
                                     <label><input type="radio"  name="danger" value="No">No</label>
                                     <label><input type="radio"  name="danger" value="Maybe">Maybe</label><br/>
 
-                               <!--- additional information or comments using a textarea
-                                form submission button using input of type submit-->
-                                <legend>Additional Comments</legend>
-                                <textarea maxlength="150"></textarea>
-                                
-                        
-                    </fieldset>
+                                  <!--- additional information or comments using a textarea
+                                   form submission button using input of type submit-->
+                                    <lable>Additional Comments</lable><br/>
+                                    <textarea maxlength="150"></textarea>
+                        </fieldset>
                     <input type="submit">
                 </form>
 
