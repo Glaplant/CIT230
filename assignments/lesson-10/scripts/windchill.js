@@ -1,3 +1,10 @@
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
+
+
+
 var t = getElementById('currently');
 var s = getElementById('windspeed');
 

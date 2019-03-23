@@ -37,4 +37,5 @@ weatherRequest.send();
     document.getElementById('day5').innerHTML=weatherData.weather.;
     document.getElementById('day5f').innerHTML=weatherData.main[32].temp;
     document.getElementById('icon5').innerHTML=weatherData.weather[0].icon;
+    }
     
