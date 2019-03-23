@@ -1,4 +1,4 @@
-@media screen and  (max-width: 600px) {
+@media screen and  (max-width: 611px) {
   
 
     html, body{
@@ -405,9 +405,15 @@ footer a{
 /*------------gallery-------------------*/
 
 
-#gridcontainer{
-    display:flex; 
-   flex-direction: column;
+figure{
+    text-align:center;
+
 }
 
 
+#galleryh1{
+margin-bottom: 2em;
+text-align: center;
+}
+
+}
