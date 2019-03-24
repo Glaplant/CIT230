@@ -64,22 +64,22 @@
                                 <!--full name using input of type text and 
                                 is required and only accepts alpha characters with a minimum of five characters 
                                 using a regular expression pattern-->
-                                <label>Name:</label><br/>
-                                <input type="text" name="name" required></label><br/>
+                                <label class='block'>Name:</label>
+                                <input class='block' type="text" name="name" required>
 
                                 <!--email using input of type email and use a placeholder to provide a demo email-->
-                                <label>Email:</label><br/>
-                                <input type="email" name="email"
-                                placeholder="someone@gmail.com" required><label><br/>
+                                <label class='block'>Email:</label>
+                                <input class='block' type="email" name="email"
+                                placeholder="someone@gmail.com" required>
 
                                 <!--phone number using input of type tel and is required-->
-                                <label>Phone:</label><br/>
-                                <input  type="tel" name="phone"
-                                 placeholder="##########" maxlength="10"></label><br/>
+                                <label class='block'>Phone:</label>
+                                <input  class='block' type="tel" name="phone"
+                                 placeholder="##########" maxlength="10">
 
                                 <!--zip code using input of type number and is required-->
-                                <label for="num">Zip Code:</label><br/>
-                                <input type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"><br>
+                                <label class='block' for="num">Zip Code:</label>
+                                <input class='block' type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep">
                                 
 
                         </fieldset>
@@ -87,15 +87,15 @@
                                 <legend>Storm Report</legend>
                                 
                                 <!--storm date using input of type date-->
-                                  <label>Storm Date:</label><br/>
-                                  <input type="date"><br/>
+                                  <label class='block' >Storm Date:</label>
+                                  <input class='block' type="date">
                                 
                                 <!--storm type using input with a 
                                    list attribute using a datalist of suggestions including 
                                    "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado."-->
                                
-                                  <label for="stormtype">Storm Type:</label><br/>
-                                       <input list="storms"  name="Storm Type" ><br/>
+                                  <label class='block' for="stormtype">Storm Type:</label>
+                                       <input class='block' list="storms"  name="Storm Type" >
                                        <datalist>
                                          <option value="Please Select">
                                          <option value="Flash Flood">
@@ -110,37 +110,39 @@
                                 with a corresponding label that indicates the current range value from 1 to 10. 
                                 Hint: See the Pen HTML Form example objects -->
 
-                                  <label>Storm Severity from 1 to 10</label><br/>
+                                  <label class='block' >Storm Severity from 1 to 10</label>
                                   
-                                  <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                                  <input class='block' type="range" id="rating" value="5" min="1" max="10" step="1" 
                                   oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		                         <span id="ratingvalue">5</span><br>
+		                         <span id="ratingvalue">5</span>
                             
                                 <!--storm region using select with drop-down options of 
                                     "Preston," Soda Springs, and "Fish Haven."-->
 
-                                    <label> Storm Region:</label><br/>
-                                        <select name="StormRegion"><br/>
+                                    <label class='block' > Storm Region:</label>
+                                        <select class='block'name="StormRegion">
                                         <option value="Please Select">Select Region</option>
                                         <option value="Preston">Preston</option>
-                                        <option value="Soda Springs">Soda Springs</option>
+                                        <option value="Soda Springs">Soda Spr ings</option>
                                         <option value="Fish Haven">Fish Haven</option>
                             
                       </fieldset>
                                 
                         <fieldset>
                                  <legend>Danger Level</legend>
-                                    <label>Are you in danger?</label>
+                                    <label class='block'>Are you in danger?</label>
+                                    <div class= 'block'>
                                     <label><input type="radio" name="danger"  value="Yes">Yes</label>
                                     <label><input type="radio"  name="danger" value="No">No</label>
-                                    <label><input type="radio"  name="danger" value="Maybe">Maybe</label><br/>
+                                    <label><input type="radio"  name="danger" value="Maybe">Maybe</label>
+                                    </div>
 
                                   <!--- additional information or comments using a textarea
                                    form submission button using input of type submit-->
-                                    <lable>Additional Comments</lable><br/>
-                                    <textarea maxlength="150"></textarea>
+                                    <lable class='block'>Additional Comments</lable>
+                                    <textarea class='block' maxlength="150"></textarea>
                         </fieldset>
-                    <input type="submit" value="send">
+                    <input class='block' type="submit" value="send">
                 </form>
 
 

@@ -417,3 +417,16 @@ text-align: center;
 }
 
 }
+
+
+/*--------form-----*/
+
+.block{
+    display: block;
+
+}
+
+fieldset{
+    margin-top:1em;
+    padding:1em;
+}
