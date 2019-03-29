@@ -63,13 +63,18 @@
        
     
     }
+
+    #flexheader{
+        display:flex;
+        justify-content:center;
+    }
     
-    #headertext{
+   /* #headertext{
         display:inline-block;
         padding-bottom:3.5em;
         text-align:center;
     
-    }
+    }*/
     
     h1{
         color:#fff;
@@ -578,6 +583,18 @@ nav ul{
             color:#fff;
         
         }
+.townBox{
+    border:solid 2px #000;
+    background-color:#2d2e86;
+    margin-top:3em;
+    text-align:center;
+   
+}
+
+
+        /*index api town boxes*/
+
+
         
 
 

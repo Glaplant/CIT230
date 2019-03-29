@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/preston.js"></script>
+        <script src="scripts/weatherapi.js"></script>
         <title>Clouds Watching</title>
        
 
@@ -56,41 +57,41 @@
                   </ul>
                 </nav>
                 <main class="gridcontainer">
-                    <div>
+                    <div class="townBox">
                         <div class="jsoncontent">
-                            <h2 id="preston"></h2>
-                            <p id="motto"></p>
-                            <p id="yearfounded"></p>
-                            <p id="population"></p>
-                            <p id="rain"></p>
-                            <p id="events"></p>
+                            <h2 id="prestonP"></h2>
+                            <p id="mottoP"></p>
+                            <p id="yearfoundedP"></p>
+                            <p id="populationP"></p>
+                            <p id="rainP"></p>
+                            <p id="eventsP"></p>
                         </div>
                     
                           <img src="images/sunset300px.jpg"  alt="">
 
                    
                     </div>
-                    <div>
+                    <div class="townBox">
                         <div class="jsoncontent">
-                                <h2 id="Soda Springs"></h2>
-                                <p id="motto"></p>
-                                <p id="yearfounded"></p>
-                                <p id="population"></p>
-                                <p id="rain"></p>
-                                <p id="events"></p>
+                                <h2 id="sodaspringsS"></h2>
+                                <p id="mottoS"></p>
+                                <p id="yearfoundedS"></p>
+                                <p id="populationS"></p>
+                                <p id="rainS"></p>
+                                <p id="eventsS"></p>
                         </div>
                         
                             <img src="images/sunset300px.jpg"  alt="">
     
                         </div>
-                 <div>
+                 <div class="townBox">
                         <div class="jsoncontent">
-                                <h2 id="Fishhaven"></h2>
-                                <p id="motto"></p>
-                                <p id="yearfounded"></p>
-                                <p id="population"></p>
-                                <p id="rain"></p>
-                                <p id="events"></p>
+                                <h2 id="fishhavenF"></h2>
+                                <p id="mottoF"></p>
+                                <p id="yearfoundedF"></p>
+                                <p id="populationF"></p>
+                                <p id="rainF"></p>
+                                <p id="eventsF"></p>
                         </div>
                        
                             <img src="images/sunset300px.jpg"  alt="picture of sunset">
@@ -98,21 +99,7 @@
                         </picture></div>
                    
                 </main>
-<script>
-               
-               var div = document.querySelector('div');
-               var requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
-               var request = new XMLHttpRequest();
-               request.open('GET',requestURL);
-               request.responseType ='json';
-               request.send();
-               request.onload=function(){
 
-
-
-
-               }
-               </script>
 
 <footer id="bottom" class="clearfix">
         <div id="largewrapper">

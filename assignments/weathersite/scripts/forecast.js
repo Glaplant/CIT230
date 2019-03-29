@@ -1,5 +1,5 @@
 let weatherPreston = new XMLHttpRequest();
-let apiPreston = 'http://samples.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=9fc9de3e82518889680cc852f9a5b5d9';
+let apiPreston = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=9fc9de3e82518889680cc852f9a5b5d9';
 weatherPreston.open('GET' , apiPreston, true);
 weatherPreston.send();
 
@@ -8,7 +8,7 @@ weatherPreston.send();
 
     weatherPreston.onload = function() {
     let weatherData = JSON.parse(weatherPreston.responseText);
-    console.log(weatherData);}
+    console.log(weatherData);
 
     /*let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[1].icon + '.png';
     let src = weatherData.weather.description;
