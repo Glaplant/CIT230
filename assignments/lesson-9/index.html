@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="css/large-9.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/preston.js"></script>
+        <script src="scripts/weatherapi.js"></script>
         <title>Clouds Watching</title>
        
 
@@ -16,21 +18,17 @@
     <body>
         
            
-                 
             <header id="flexheader">
-                    <div id="headerwrapper" class="clearfix">
-                        <picture>
-                                <source  media="(min-width:601)" srcset="images/sun150px.png">
-                                <source  media="(max-width:600)" srcset="images/sun69px.png">
-                                <img  src="images/sun69px.png" alt="vector sun art">
-                         </picture>
-                         <div id= "headertext">
-                            <h1>Clouds Watching</h1>
-                            <p id="motto">Relax, it's just the weather.</p>
-                         </div>
-                     </div>
-                    
-            </header>
+                    <picture>
+                        <source media="(min-width:601px)"  srcset ="images/sun150px.png">
+                        <source media="(max-width:600px)"  srcset ="images/sun69px.png">
+                    <img src="images/sun69px.png" alt="vector sun art" >
+                    </picture>
+                    <div id= "headertext">
+                    <h1>Clouds Watching</h1>
+                    <p id="motto">Relax, it's just the weather.</p>
+                    </div>  
+                </header>
     
             <nav class="clearfix">
                 
@@ -39,16 +37,16 @@
                         <ul  id="primaryNav" class="hide">
                         
                         <li class="active">
-                            <a href="index">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li class="active">
                             <a href="preston-9.html">Preston</a>
                         </li>
                         <li class="active">
-                            <a href="#">Soda Springs</a>
+                            <a href="sodasprings.html">Soda Springs</a>
                         </li>
                         <li class="active">
-                            <a href="#">Fish Haven</a>
+                            <a href="fishhaven.html">Fish Haven</a>
                         </li>
                         <li class="active">
                             <a href="stormcenter.html">Storm Center</a>
@@ -58,43 +56,50 @@
                         </li>
                   </ul>
                 </nav>
-                <main id="flexparent">
-                    <div >
-                        <div class="jsoncontent"></div>
+                <main class="gridcontainer">
+                    <div class="townBox">
+                        <div class="jsoncontent">
+                            <h2 id="prestonP"></h2>
+                            <p id="mottoP"></p>
+                            <p id="yearfoundedP"></p>
+                            <p id="populationP"></p>
+                            <p id="rainP"></p>
+                            <p id="eventsP"></p>
+                        </div>
                     
                           <img src="images/sunset300px.jpg"  alt="">
 
                    
                     </div>
-                    <div>
-                        <div class="jsoncontent"></div>
+                    <div class="townBox">
+                        <div class="jsoncontent">
+                                <h2 id="sodaspringsS"></h2>
+                                <p id="mottoS"></p>
+                                <p id="yearfoundedS"></p>
+                                <p id="populationS"></p>
+                                <p id="rainS"></p>
+                                <p id="eventsS"></p>
+                        </div>
                         
                             <img src="images/sunset300px.jpg"  alt="">
     
                         </div>
-                 <div>
-                        <div class="jsoncontent"></div>
+                 <div class="townBox">
+                        <div class="jsoncontent">
+                                <h2 id="fishhavenF"></h2>
+                                <p id="mottoF"></p>
+                                <p id="yearfoundedF"></p>
+                                <p id="populationF"></p>
+                                <p id="rainF"></p>
+                                <p id="eventsF"></p>
+                        </div>
                        
                             <img src="images/sunset300px.jpg"  alt="picture of sunset">
     
                         </picture></div>
                    
                 </main>
-<script>
-               
-               var div = document.querySelector('div');
-               var requestURL= 'https://byui-cit230.github.io/weather/data/towndata.json';
-               var request = new XMLHttpRequest();
-               request.open('GET',requestURL);
-               request.responseType ='json';
-               request.send();
-               request.onload=function(){
 
-
-
-
-               }
-               </script>
 
 <footer id="bottom" class="clearfix">
         <div id="largewrapper">

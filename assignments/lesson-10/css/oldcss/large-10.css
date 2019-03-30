@@ -2,7 +2,7 @@
 
     
 
-    body{
+    html, body{
         width:100%;
         height:100%;
         margin:0;
@@ -42,7 +42,7 @@
         border: 1px solid #000;
         box-shadow: 0 0 30px #000;
         width:100%;
-       
+      
     
     
        
@@ -63,18 +63,13 @@
        
     
     }
-
-    #flexheader{
-        display:flex;
-        justify-content:center;
-    }
     
-   /* #headertext{
+    #headertext{
         display:inline-block;
         padding-bottom:3.5em;
         text-align:center;
     
-    }*/
+    }
     
     h1{
         color:#fff;
@@ -583,18 +578,6 @@ nav ul{
             color:#fff;
         
         }
-.townBox{
-    border:solid 2px #000;
-    background-color:#2d2e86;
-    margin-top:3em;
-    text-align:center;
-   
-}
-
-
-        /*index api town boxes*/
-
-
         
 
 

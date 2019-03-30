@@ -16,7 +16,7 @@ weatherPreston.send();
    /*----Day 1--*/
     document.getElementById('day1').innerHTML=weatherData.object.list[3].weather.;
     document.getElementById('day1f').innerHTML=weatherData.object.list[3].main.temp;
-    document.getElementById('icon1').innerHTML=weatherData.object.list.[3]weather.0.icon;
+    document.getElementById('icon1').innerHTML=weatherData.object.list[3].weather[0].icon;
     
     /*---Day 2----*//*
     document.getElementById('day2').innerHTML=weatherData.weather.;

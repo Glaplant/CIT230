@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/large-9.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <script src="scripts/hamburger.js"></script>
+        <script src="scripts/weathersummary.js"></script>
         <title>Clouds Watching</title>
        
 
@@ -17,16 +18,17 @@
         
            
             
-        <header id="flexheader">
-            <picture>
-                <source media="(min-width:601px)"  srcset ="images/sun.png">
-            <img src="images/sun_64x64.png" alt="vector sun art" >
-            </picture>
-            <div id= "headertext">
-            <h1>Clouds Watching</h1>
-            <p id="motto">Relax, it's just the weather.</p>
-            </div>  
-        </header>
+            <header id="flexheader">
+                    <picture>
+                        <source media="(min-width:601px)"  srcset ="images/sun150px.png">
+                        <source media="(max-width:600px)"  srcset ="images/sun69px.png">
+                    <img src="images/sun69px.png" alt="vector sun art" >
+                    </picture>
+                    <div id= "headertext">
+                    <h1>Clouds Watching</h1>
+                    <p id="motto">Relax, it's just the weather.</p>
+                    </div>  
+                </header>
     
             <nav class="clearfix">
                 
@@ -35,19 +37,19 @@
                         <ul  id="primaryNav" class="hide">
                         
                         <li class="active">
-                            <a href="#">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li class="active">
                             <a href="preston.html">Preston</a>
                         </li>
                         <li class="active">
-                            <a href="#">Soda Springs</a>
+                            <a href="sodasprings.html">Soda Springs</a>
                         </li>
                         <li class="active">
-                            <a href="#">Fish Haven</a>
+                            <a href="fishhaven.html">Fish Haven</a>
                         </li>
                         <li class="active">
-                            <a href="#">Storm Center</a>
+                            <a href="stormcenter.html">Storm Center</a>
                         </li>
                         <li class="active">
                             <a href="gallery.html">Gallery</a>
@@ -56,82 +58,91 @@
                 </nav>
 
                 <form method="get" action="thanks.html">
-                    <fieldset>
-                        <legend>Contact</legend>
+                      <fieldset>
+                            <legend>Contact</legend>
 
                                 <!--full name using input of type text and 
                                 is required and only accepts alpha characters with a minimum of five characters 
                                 using a regular expression pattern-->
-                                <label>Name<input type="text" name="name" required></label>
+                                <label class='block'>Name:</label>
+                                <input class='block' type="text" name="name" required>
 
                                 <!--email using input of type email and use a placeholder to provide a demo email-->
-                                <label>Email<input type="email" name="email"
-                                    placeholder="someone@gmail.com" required><label>
+                                <label class='block'>Email:</label>
+                                <input class='block' type="email" name="email"
+                                placeholder="someone@gmail.com" required>
 
                                 <!--phone number using input of type tel and is required-->
-                                <label>Phone<input  type="tel" name="phone"
-                                     placeholder="1235551234"></label>
+                                <label class='block'>Phone:</label>
+                                <input  class='block' type="tel" name="phone"
+                                 placeholder="##########" maxlength="10">
 
                                 <!--zip code using input of type number and is required-->
-                                <label>Zipcode<input type="number"></label>
+                                <label class='block' for="num">Zip Code:</label>
+                                <input class='block' type="number" id="num" name="num" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep">
+                                
 
-                                </fieldset>
-                                <fieldset>
-                                    <legend>Storm Report</legend>
-
+                        </fieldset>
+                        <fieldset>
+                                <legend>Storm Report</legend>
+                                
                                 <!--storm date using input of type date-->
-                                <label>Storm Date<input type="date"></label>
+                                  <label class='block' >Storm Date:</label>
+                                  <input class='block' type="date">
                                 
                                 <!--storm type using input with a 
                                    list attribute using a datalist of suggestions including 
                                    "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado."-->
-                                <label>Storm Type <select name="Storm Type"></label>
-                                    <option value="Please Select">Please Select</option>
-                                    <option value="Flash Flood">Flash Flood</option>
-                                    <option value="Hail">Hail</option>
-                                    <option value="Hurricane">Hurricane</option>
-                                    <option value="Thunderstorm">Thunderstorm</option>
-                                    <option value="Tornado">Tornado</option>
+                               
+                                  <label class='block' for="stormtype">Storm Type:</label>
+                                       <input class='block' list="storms"  name="Storm Type" >
+                                       <datalist>
+                                         <option value="Please Select">
+                                         <option value="Flash Flood">
+                                         <option value="Hail">
+                                         <option value="Hurricane">
+                                         <option value="Thunderstorm">
+                                         <option value="Tornado">
+                                       </datalist>
 
                               <!---
                                 storm severity using type range (1 to 10)
                                 with a corresponding label that indicates the current range value from 1 to 10. 
                                 Hint: See the Pen HTML Form example objects -->
 
-                                <label>Storm Severity from 1 to 10<input> </label>
-
+                                  <label class='block' >Storm Severity from 1 to 10</label>
+                                  
+                                  <input class='block' type="range" id="rating" value="5" min="1" max="10" step="1" 
+                                  oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		                         <span id="ratingvalue">5</span>
+                            
                                 <!--storm region using select with drop-down options of 
                                     "Preston," Soda Springs, and "Fish Haven."-->
 
-                                    <label>Storm Region<select name="StormRegion">
-                                        <option value="Please Select">Please Select</option>
+                                    <label class='block' > Storm Region:</label>
+                                        <select class='block'name="StormRegion">
+                                        <option value="Please Select">Select Region</option>
                                         <option value="Preston">Preston</option>
-                                        <option value="Soda Springs">Soda Springs</option>
-                                        <option value="Fish Haven
-                                        ">Fish Haven</option>
-                                    </label>
+                                        <option value="Soda Springs">Soda Spr ings</option>
+                                        <option value="Fish Haven">Fish Haven</option>
+                            
+                      </fieldset>
                                 
-                                <!---Add a first option with the text "Select Region ..." that is shown by 
-                                    default but not selectable.
-                                 The rest of the options should have relevant value attributes.-->
+                        <fieldset>
+                                 <legend>Danger Level</legend>
+                                    <label class='block'>Are you in danger?</label>
+                                    <div class= 'block'>
+                                    <label><input type="radio" name="danger"  value="Yes">Yes</label>
+                                    <label><input type="radio"  name="danger" value="No">No</label>
+                                    <label><input type="radio"  name="danger" value="Maybe">Maybe</label>
+                                    </div>
 
-                                <input>  
-
-                                <!----user in-danger level using input of type radio with 
-                                    options and values of "yes," "maybe," and "no."-->
-                                    <legend>Are you in danger?<legend>
-                                    <label><input type="radio" name="" value="Yes">Yes</label>
-                                    <label><input type="radio" name="" value="No">No</label>
-                                    <label><input type="radio" name="" value="Maybe">Maybe</label>
-
-                               <!--- additional information or comments using a textarea
-                                form submission button using input of type submit-->
-                                <legend>Additional Comments</legend>
-                                <input type="text"> 
-                                
-                        
-                    </fieldset>
-                    <submit></submit>
+                                  <!--- additional information or comments using a textarea
+                                   form submission button using input of type submit-->
+                                    <lable class='block'>Additional Comments</lable>
+                                    <textarea class='block' maxlength="150"></textarea>
+                        </fieldset>
+                    <input class='block' type="submit" value="send">
                 </form>
 
 
@@ -182,5 +193,7 @@ Hint: Review the <form> attributes.-->
                         </div>
 
         </footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>
