@@ -10,13 +10,13 @@ weatherPreston.send();
     let weatherData = JSON.parse(weatherPreston.responseText);
     console.log(weatherData);
 
-    /*let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[1].icon + '.png';
-    let src = weatherData.weather.description;
+    let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[1].icon + '.png';
+    let src = weatherData.weather;
    
-   /*----Day 1--*//*
-    document.getElementById('day1').innerHTML=weatherData.weather.;
-    document.getElementById('day1f').innerHTML=weatherData.main[0].temp;
-    document.getElementById('icon1').innerHTML=weatherData.weather[0].icon;
+   /*----Day 1--*/
+    document.getElementById('day1').innerHTML=weatherData.object.list[3].weather.;
+    document.getElementById('day1f').innerHTML=weatherData.object.list[3].main.temp;
+    document.getElementById('icon1').innerHTML=weatherData.object.list.[3]weather.0.icon;
     
     /*---Day 2----*//*
     document.getElementById('day2').innerHTML=weatherData.weather.;
