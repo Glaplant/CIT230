@@ -12,6 +12,26 @@ weatherPreston.send();
 
     let icon = 'http://openweathermap.org/img/w/' + weatherData.weather[1].icon + '.png';
     let src = weatherData.weather;
+
+
+    for(i=0; i<38 ;i++){
+
+        if townData.sys.dt_txt = 16:00:00
+    
+        list.main.temp
+        list.weather.icon
+        list.
+
+weather.description.
+        01d.png
+        02d.png
+        03d.png
+        04d.png
+        09d.png
+        10d.png
+        11d.png
+        13d.png
+        50d.png
    
    /*----Day 1--*/
     document.getElementById('day1').innerHTML=weatherData.object.list[3].weather.;

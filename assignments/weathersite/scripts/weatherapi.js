@@ -10,6 +10,9 @@ townRequest.send();
     let townData = JSON.parse(townRequest.responseText);
     console.log(townData);
 
+
+  
+
     
     document.getElementById("prestonP").innerHTML= townData.towns[4].name ;
     document.getElementById("mottoP").innerHTML= townData.towns[4].motto ;
