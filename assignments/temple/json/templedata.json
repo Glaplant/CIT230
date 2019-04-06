@@ -1,0 +1,122 @@
+{"temples":[
+
+ {
+
+  "name":"Palmyra",
+  "telephone":"1-315-597-6001",
+  "history": [
+              "Announced":"21 Febuary 1999",
+              "Groundbreaking":"25 May 1999",
+              "Dedicated":"6 April 2000"
+             
+             ],
+  "ordinances":[
+                 "Baptism for the Dead",
+                 "Endowments",
+                 "Inititories",
+                 "Sealings"
+              ],
+  "schedule":[
+           "Endowments":"9am",
+           "Endowments":"11am",
+           "Endowments":"6pm",
+           "Endowments":"7:30pm"
+             ],
+
+  "closures":[
+          "closed":"Saturday, 6 April 2019",
+          "closed":"Thursday, 4 July 2019",
+          "closed":"Monday, 9 September 2019 - Saturday, 21 September 2019",
+          "closed":"Saturday, 5 October 2019",
+          "closed":"Thursday, 28 November 2019",
+          "closed":"Tuesday, 24 December 2019",
+          "closed":"Wednesday, 25 December 2019",
+          "closed":"Tuesday, 31 December 2019",
+              ],
+
+  "services":[
+           "clothing rental":"none",
+           "cafeteria":"none",
+           "patron housing:"none",
+           "distribution center":"none",
+
+             ]
+ },
+
+ {
+
+   "name":"Winter Quarters",
+   "telephone":"",
+   "email":"",
+   "history":"",
+   "ordinances":"",
+   "schedule":"",
+   "closures":"",
+   "services":[
+            ":",
+            ":",
+            ":",
+            ":",
+
+              ]
+  },
+
+  {
+
+    "name":"Nauvoo",
+    "telephone":"",
+    "email":"",
+    "history":"",
+    "ordinances":"",
+    "schedule":"",
+    "closures":"",
+    "services":[
+             ":",
+             ":",
+             ":",
+             ":",
+
+               ]
+   },
+   {
+
+    "name":"Kansas City",
+    "telephone":"",
+    "email":"",
+    "history":"",
+    "ordinances":"",
+    "schedule":"",
+    "closures":"",
+    "services":[
+             ":",
+             ":",
+             ":",
+              ":",
+
+   ]
+  }
+ ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

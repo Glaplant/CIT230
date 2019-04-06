@@ -9,6 +9,10 @@
     <link src="css/small.css" type="text/css" rel="stylesheet">
     <link src="css/medium.css" type="text/css" rel="stylesheet">
     <link src="css/large.css" type="text/css" rel="stylesheet">
+    <script src="scripts/nauvooWeather.js" > </script>
+    <script src="scripts/kansascityWeather.js" ></script>
+    <script src="scripts/palmyraWeather.js" ></script>
+    <script src="scripts/winterquartersWeather.js" ></script>
     </head>
     <body>
             <!---The temple page describes the details for at least four temples of
@@ -18,17 +22,156 @@
     <header>
         <nav>
             <ul>
-                <li>
-                    <li>
-                        <li>
-
-                        </li>
-                    </li>
-                </li>
+                       <li><a href="#index.html">Home </li></a>
+                        <li><a href="#">Temple</li></a>
+                        <li><a href="#">RSVP</li></a>
+                        <li><a href="#">Reception</li></a>
+                        <li><a href="#">Services</li></a>
+                        <li><a href="#">Contact</li></a>
+                        <li><a href="#">templemissionary</li></a>
             </ul>
         </nav>
     </header>
     <main>
+
+        <!---Current Weather Summary API-->
+         <!---JSON-->
+        <!---telephone-->
+        <!---email-->
+        <!---services-->
+        <!---history-->
+        <!---ordinaces-->
+        <!----session schedule--->
+        <!---temple closure schedule-->
+
+
+                          <!---Winter Quarters-->
+        <div id='temple1'>
+
+            <picture>
+                    <source media="(min-width:)" srcset=".jpg">
+                    <source media="(min-width:)" srcset=".jpg">
+                    <source media="(min-width:)" srcset=".jpg">
+                <img src="" alt="winter quarters temple"> 
+            </picture>     
+                             <!---JSON-->
+             <div>
+                   <h2 id="name1">Winter Quarters</h2>
+                   <p id="telephone1">telephone</p>
+                   <p id="services1">services</p>
+                   <p id="history1">history</p>
+                   <p id="ordinance1">ordinance schedule</p>
+                   <p id="schedule1">session schedule</p>
+                   <p id="closures1">temple clossures</p>
+              </div>     
+                               <!---API-->
+              <div>
+                    <h2>Current Weather</h2>
+                    <p id='current1'>Current Temp<span>&#8457;</span></p>
+                    <p id= 'maxtemp1'>Max Temp<span>&#8457;</span></p>
+                    <p id= 'mintemp1'>Min Temp<span>&#8457;</span></p>
+                    <p id='windspeed1'>WindSpeed<span>&#8457;</span></p>
+                    <p id='windchill1'>Windchill<span>&#8457;</span></p>
+                    <p id= 'humidity1'>Humidity</p>
+            </div>
+
+        </div>
+
+                             <!---Palmyra--->
+        <div id='temple2'>
+             <picture>
+                 <source media="(min-width:)" srcset=".jpg">
+                 <source media="(min-width:)" srcset=".jpg">
+                 <source media="(min-width:)" srcset=".jpg">
+                <img src="images/.jpg" alt="palmyra temple"> 
+              </picture>
+                             <!---JSON-->
+                   <h2 id="name2">Palmyra</h2>
+                   <p id="telephone2">telephone</p>
+                   <p id="email2">email</p>
+                   <p id="services2">services</p>
+                   <p id="history2">history</p>
+                   <p id="ordinance2">ordinance schedule</p>
+                   <p id="schedule2">session schedule</p>
+                   <p id="closures2">temple clossures</p>
+        </div>
+
+                             <!---API-->
+                   
+              <div>
+                  <h2>Current Weather</h2>
+                  <p id= 'current2'>Current Temp<span>&#8457;</span></p>
+                  <p id= 'maxtemp2'>Max Temp<span>&#8457;</span></p>
+                  <p id= 'mintemp2'>Min Temp<span>&#8457;</span></p>
+                  <p id= 'windspeed2'>WindSpeed<span>&#8457;</span></p>
+                  <p id= 'windchill2'>Windchill<span>&#8457;</span></p>
+                  <p id= 'humidity2'>Humidity</p>
+             </div>
+        </div>
+
+                         <!---Nauvoo--->
+        <div id='temple3'>  
+            
+            <picture>
+                <source media="(min-width:)" srcset=".jpg">
+                <source media="(min-width:)" srcset=".jpg">
+                <source media="(min-width:)" srcset=".jpg">
+                <img src="images/.jpg" alt="nauvoo temple"> 
+            </picture> 
+                           <!---JSON-->
+            <div>
+                <h2 id="name3">Nauvoo</h2>
+                <p id="telephone3">telephone</p>
+                <p id="email">email</p>
+                <p id="services3">services</p>
+                <p id="history3">history</p>
+                <p id="ordinance3">ordinance schedule</p>
+                <p id="schedule3">session schedule</p>
+                <p id="closures3">temple clossures</p>
+            </div>
+                          <!---API-->
+            <div>
+                <h2>Current Weather</h2>
+                <p id= "current3">Current Temp<span>&#8457;</span></p>
+                <p id= "maxtemp3">Max Temp<span>&#8457;</span></p>
+                <p id= "mintemp3">Min Temp<span>&#8457;</span></p>
+                <p id= "windspeed3">WindSpeed<span>&#8457;</span></p>
+                <p id= "windchill3">Windchill<span>&#8457;</span></p>
+                <p id= "humidity3">Humidity</p>
+            </div>
+        </div>
+
+                        <!---Kansas City--->
+        <div id='temple4'> 
+
+            <picture>
+                <source media="(min-width:)" srcset=".jpg">
+                <source media="(min-width:)" srcset=".jpg">
+                <source media="(min-width:)" srcset=".jpg">
+                <img src="images/.jpg" alt="nauvoo temple"> 
+            </picture> 
+                           <!---JSON-->
+            <div>
+                <h2 id="name4">Kansas City</h2>
+                <p id="telephone4">telephone</p>
+                <p id="email4">email</p>
+                <p id="services4">services</p>
+                <p id="history4">history</p>
+                <p id="ordinance4">ordinance schedule</p>
+                <p id="schedule4">session schedule</p>
+                <p id="closures4">temple clossures</p>
+            </div>
+                           <!---API-->
+            <div>
+                <h2>Current Weather</h2>
+                <p id="current4">Current Temp<span>&#8457;</span></p>
+                <p id="maxtemp4">Max Temp<span>&#8457;</span></p>
+                <p id="mintemp4">Min Temp<span>&#8457;</span></p>
+                <p id="windspeed4">WindSpeed<span>&#8457;</span></p>
+                <p id="windchill4">Windchill<span>&#8457;</span></p>
+                <p id="humidity4">Humidity</p>
+            </div>
+     </div>   
         
     </main>
     <footer>
