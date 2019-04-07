@@ -1,0 +1,63 @@
+@media screen and (max-width:600px){
+    
+nav{
+    background-color:#9294c9;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    
+   
+   
+
+}
+
+nav ul{
+   list-style-type:none;
+   padding:0;
+   margin:0;
+    
+    
+} 
+
+
+nav button{
+    background-color:transparent;
+    border:none;
+    margin:.2em 2%;
+    font-size: 1.6rem;
+    color:#555;
+
+}
+
+nav ul li a{
+  display:block;
+  padding:.8rem 2%;
+  text-decoration: none;
+  color: #fff;
+  font-weight:bold;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  
+    
+   }
+
+
+
+   nav ul li .active a{
+    background-color:rgba(0,0,0,0.3);
+    color:#fff;
+
+
+}
+
+
+
+nav ul li a:hover{
+    background-color:rgba(0,0,0,0.4);
+    
+
+}
+
+nav ul.hide{
+    display:none;
+}
+}

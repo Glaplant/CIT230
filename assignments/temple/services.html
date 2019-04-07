@@ -9,18 +9,19 @@
     <link src="css/small.css" type="text/css" rel="stylesheet">
     <link src="css/medium.css" type="text/css" rel="stylesheet">
     <link src="css/large.css" type="text/css" rel="stylesheet">
+    <script src="scripts/hamburger.js"></script>
     </head>
     <body>
     <header>
         <nav>
-                <ul>
-                        <li><a href="#index.html">Home </li></a>
-                         <li><a href="#">Temple</li></a>
-                         <li><a href="#">RSVP</li></a>
-                         <li><a href="#">Reception</li></a>
-                         <li><a href="#">Services</li></a>
-                         <li><a href="#">Contact</li></a>
-                         <li><a href="#">templemissionary</li></a>
+            <button onclick="toggelMenu()">&#9776;</button>
+                <ul id="primeNav" class="hide">
+                        <li class="active"><a href="index.html">Home </li></a>
+                        <li class="active"><a href="temple.html">Temple</li></a>
+                        <li class="active"><a href="reservation.html">RSVP</li></a>
+                        <li class="active"><a href="services.html">Services</li></a>
+                        <li class="active"><a href="contact.html">Contact</li></a>
+                         
              </ul>
         </nav>
     </header>

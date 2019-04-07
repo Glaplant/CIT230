@@ -1,102 +1,191 @@
-{"temples":[
+{
 
- {
+"temples":[
+
+   {
 
   "name":"Palmyra",
   "telephone":"1-315-597-6001",
+
   "history": [
-              "Announced":"21 Febuary 1999",
-              "Groundbreaking":"25 May 1999",
-              "Dedicated":"6 April 2000"
+              "Announced 21 Febuary 1999",
+              "Groundbreaking 25 May 1999",
+              "Dedicated 6 April 2000"
              
              ],
+
   "ordinances":[
                  "Baptism for the Dead",
                  "Endowments",
                  "Inititories",
                  "Sealings"
               ],
+
+
   "schedule":[
-           "Endowments":"9am",
-           "Endowments":"11am",
-           "Endowments":"6pm",
-           "Endowments":"7:30pm"
+
+           "9am",
+           "11am",
+           "6pm",
+           "7:30pm"
+
              ],
 
+
   "closures":[
-          "closed":"Saturday, 6 April 2019",
-          "closed":"Thursday, 4 July 2019",
-          "closed":"Monday, 9 September 2019 - Saturday, 21 September 2019",
-          "closed":"Saturday, 5 October 2019",
-          "closed":"Thursday, 28 November 2019",
-          "closed":"Tuesday, 24 December 2019",
-          "closed":"Wednesday, 25 December 2019",
-          "closed":"Tuesday, 31 December 2019",
+          "Saturday, 6 April 2019",
+          "Thursday, 4 July 2019",
+          "Monday, 9 September 2019 - Saturday, 21 September 2019",
+          "Saturday, 5 October 2019",
+          "Thursday, 28 November 2019",
+          "Tuesday, 24 December 2019",
+          "Wednesday, 25 December 2019",
+          "Tuesday, 31 December 2019"
               ],
 
   "services":[
-           "clothing rental":"none",
-           "cafeteria":"none",
-           "patron housing:"none",
-           "distribution center":"none",
+           "clothing rental none",
+           "cafeteria none",
+           "patron housing none",
+           "distribution center none"
 
              ]
- },
+          },
 
  {
 
    "name":"Winter Quarters",
-   "telephone":"",
-   "email":"",
-   "history":"",
-   "ordinances":"",
-   "schedule":"",
-   "closures":"",
+   "telephone":"1-402-453-3406",
+   "history":[
+              "Announced 14 June 1999",
+              "Ground Breaking 28 November 1999",
+              "Dedication 22 April 2001"
+               ],
+
+   "ordinances":[
+                 "Baptism for the Dead",
+                 "Endowments",
+                 "Inititories",
+                 "Sealings"
+                ],
+   "schedule":[
+                   "8:00am",
+                   "10:00am",
+                   "12:00pm",
+                   "2:00pm"
+                     ],
+   "closures":[
+             "Saturday, 6th April 2019",
+             "Thursday, 4th July 2019",
+             "Sunday, 22nd September 2019-Monday, 7 October 2019",
+             "Wednesday, 27th November 2019 - Thursday, 28th November 20019",
+             "Tuesday, 24th December 2019 - Wednesday, 25 December 2019",
+             "Tuesday, 31 December 2019 - Wednesday, 1 January 2020"
+              ],
+
+
    "services":[
-            ":",
-            ":",
-            ":",
-            ":",
+            "Clothing Rental":"No",
+            "Cafeteria:"No",
+            "Patron Housing:"No",
+            "Distribution Center:"No"
 
               ]
-  },
+           },
 
   {
 
     "name":"Nauvoo",
-    "telephone":"",
-    "email":"",
-    "history":"",
-    "ordinances":"",
-    "schedule":"",
-    "closures":"",
-    "services":[
-             ":",
-             ":",
-             ":",
-             ":",
+    "telephone":"1-217-453-6252",
+    "history":[
 
-               ]
-   },
+            "Announced 4 April 1999",
+            "Groundbreaking 24 October 1999",
+            "Dedicated 27 June 2002"
+
+               ],
+    
+    "ordinances":[
+                 "Baptism for the Dead",
+                 "Endowments",
+                 "Inititories",
+                 "Sealings"
+                ],
+
+    "schedule":[
+                  "9:00 AM",
+                  "10:00 AM",
+                  "11:00 AM",
+                  "12:00 PM"
+                 
+               ],
+
+    "closures":[
+                 "Saturday 6 April 2019",
+                 "Monday 29 April 2019 - Sunday,12 May 2019",
+                 "Saturday 5 October 2019",
+                 "Monday 11 November 2019 - Monday, 25 November 2019",
+                 "Wednesday 27 November 2019 - Thursday, 28 November 2019",
+                 "Wednesday 25 December 2019"
+               ],
+
+     "services":[
+            "Clothing Rental":"Yes",
+            "Cafeteria:"No",
+            "Patron Housing:"No",
+            "Distribution Center:"No"
+
+              ]
+           },
+
    {
 
     "name":"Kansas City",
-    "telephone":"",
-    "email":"",
-    "history":"",
-    "ordinances":"",
-    "schedule":"",
-    "closures":"",
-    "services":[
-             ":",
-             ":",
-             ":",
-              ":",
+    "telephone":"1-816-413-1430",
+       "history":[
 
-   ]
-  }
- ]
+            "Announced 4 October 2008",
+            "Groundbreaking 8 May 2010",
+            "Dedicated 6 May 2012"
+
+               ],
+    
+   "ordinances":[
+                 "Baptism for the Dead",
+                 "Endowments",
+                 "Inititories",
+                 "Sealings"
+                ],
+
+    "schedule":[
+                 "9:30am",
+                 "10:30am",
+                "11:30am",
+                 "6:30pm"
+               ],
+
+    "closures":[
+                "Saturday 6 April 2019",
+                "Thursday 4 July 2019",
+                "Monday, 22 July 2019 - Monday, 5 August 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019"
+
+               ],
+
+     "services":[
+            "Clothing Rental":"Yes",
+            "Cafeteria:"No",
+            "Patron Housing:"No",
+            "Distribution Center:"No"
+
+              ]
+           },
+      ]
 }
+
 
 
 

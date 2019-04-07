@@ -9,6 +9,7 @@
     <link src="css/small.css" type="text/css" rel="stylesheet">
     <link src="css/medium.css" type="text/css" rel="stylesheet">
     <link src="css/large.css" type="text/css" rel="stylesheet">
+    <script src="scripts/hamburger.js"></script>
     </head>
     <body>
 
@@ -19,14 +20,15 @@
             Summary information about a temple of your choosing-->
     <header>
         <nav>
-            <ul>
-                        <li><a href="index.html">Home </li></a>
-                        <li><a href="temple.html">Temple</li></a>
-                        <li><a href="reservation.html">RSVP</li></a>
-                        <li><a href="reception.html">Reception</li></a>
-                        <li><a href="services.html">Services</li></a>
-                        <li><a href="contact.html">Contact</li></a>
-                        <li><a href="templemissionary.html">Temple Missionary</li></a>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul  id="primaryNav" class="hide">
+                        <li class="active"><a href="index.html">Home </li></a>
+                        <li class="active"><a href="temple.html">Temple</li></a>
+                        <li class="active"><a href="reservation.html">RSVP</li></a>
+                        <li class="active"><a href="reception.html">Reception</li></a>
+                        <li class="active"><a href="services.html">Services</li></a>
+                        <li class="active"><a href="contact.html">Contact</li></a>
+                        <li class="active"><a href="templemissionary.html">Temple Missionary</li></a>
             </ul>
         </nav>
     </header>

@@ -13,6 +13,8 @@
     <script src="scripts/kansascityWeather.js" ></script>
     <script src="scripts/palmyraWeather.js" ></script>
     <script src="scripts/winterquartersWeather.js" ></script>
+    <script src="scripts/temples.js"></script>
+    <script src="scripts/hamburger.js"></script>
     </head>
     <body>
             <!---The temple page describes the details for at least four temples of
@@ -21,14 +23,14 @@
              (from a JSON source), and summary—current weather information obtained from a third party API. -->
     <header>
         <nav>
-            <ul>
-                       <li><a href="#index.html">Home </li></a>
-                        <li><a href="#">Temple</li></a>
-                        <li><a href="#">RSVP</li></a>
-                        <li><a href="#">Reception</li></a>
-                        <li><a href="#">Services</li></a>
-                        <li><a href="#">Contact</li></a>
-                        <li><a href="#">templemissionary</li></a>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primeNav" class="hide">
+                    <li class="active"><a href="index.html">Home </li></a>
+                    <li class="active"><a href="temple.html">Temple</li></a>
+                    <li class="active"><a href="reservation.html">RSVP</li></a>
+                    <li class="active"><a href="services.html">Services</li></a>
+                    <li class="active"><a href="contact.html">Contact</li></a>
+                        
             </ul>
         </nav>
     </header>
@@ -148,7 +150,7 @@
                 <source media="(min-width:)" srcset=".jpg">
                 <source media="(min-width:)" srcset=".jpg">
                 <source media="(min-width:)" srcset=".jpg">
-                <img src="images/.jpg" alt="nauvoo temple"> 
+                <img src="images/.jpg" alt="kansas city temple"> 
             </picture> 
                            <!---JSON-->
             <div>
