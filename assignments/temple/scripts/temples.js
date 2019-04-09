@@ -11,6 +11,6 @@ templeRequest.send();
     console.log(templeData);
 
 
-    document.getElementById('name2').innerHTML=templeData.temples[0].name;
+    document.getElementById("name2").innerHTML= templeData.temples[0].name;
 
     }

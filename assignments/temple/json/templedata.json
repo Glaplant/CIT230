@@ -68,7 +68,7 @@
                  "Inititories",
                  "Sealings"
                 ],
-   "schedule":[
+   "Endowment schedule":[
                    "8:00am",
                    "10:00am",
                    "12:00pm",
@@ -84,16 +84,22 @@
               ],
 
 
-   "services":[
-            "Clothing Rental":"No",
-            "Cafeteria":"No",
-            "Patron Housing:"No",
-            "Distribution Center":"No"
+   "services" : [
 
-              ]
-           },
+            {
+              "Clothing Rental" : "No",
+              "Cafeteria" : "No",
+              "Patron Housing" : "No",
+              "Distribution Center" : "No"
 
-  {
+           }
+         
+          ]
+        },
+
+      {
+
+  
 
     "name":"Nauvoo",
     "telephone":"1-217-453-6252",
@@ -112,7 +118,7 @@
                  "Sealings"
                 ],
 
-    "schedule":[
+    "Endowment schedule":[
                   "9:00 AM",
                   "10:00 AM",
                   "11:00 AM",
@@ -130,19 +136,24 @@
                ],
 
      "services":[
-            "Clothing Rental":"Yes",
-            "Cafeteria:"No",
-            "Patron Housing:"No",
-            "Distribution Center:"No"
+            
+            {
+              "Clothing Rental":"Yes",
+               "Cafeteria":"No",
+               "Patron Housing":"No",
+               "Distribution Center":"No"
+            }
 
               ]
-           },
+          
 
-   {
+ }
 
-    "name":"Kansas City",
-    "telephone":"1-816-413-1430",
-       "history":[
+ {
+
+            "name":"Kansas City",
+            "telephone":"1-816-413-1430",
+             "history":[
 
             "Announced 4 October 2008",
             "Groundbreaking 8 May 2010",
@@ -157,7 +168,8 @@
                  "Sealings"
                 ],
 
-    "schedule":[
+    "Endowment schedule" : [
+                
                  "9:30am",
                  "10:30am",
                 "11:30am",
@@ -176,13 +188,16 @@
                ],
 
      "services":[
-            "Clothing Rental":"Yes",
-            "Cafeteria:"No",
-            "Patron Housing:"No",
-            "Distribution Center:"No"
 
+          {
+            "Clothing Rental":"Yes",
+            "Cafeteria":"No",
+            "Patron Housing":"No",
+            "Distribution Center":"No"
+
+          }
               ]
-           },
+            }
       ]
 }
 
