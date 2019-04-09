@@ -86,9 +86,9 @@
 
    "services":[
             "Clothing Rental":"No",
-            "Cafeteria:"No",
+            "Cafeteria":"No",
             "Patron Housing:"No",
-            "Distribution Center:"No"
+            "Distribution Center":"No"
 
               ]
            },

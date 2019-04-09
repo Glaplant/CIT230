@@ -3,12 +3,13 @@
     <head>
     <meta  charset="utf-8">
     <meta  name="description" content="temple suites">
-    <meta  name="viewport" content="width = device width" , initial-scale=1, maximum-scale=1>
+    <meta  name="viewport" content="width = device-width" , initial-scale=1, maximum-scale=1>
     <title>Temple Inn and Suites</title>
-    <link src="css/normalize.css" type="text/css" rel="stylesheet">
-    <link src="css/small.css" type="text/css" rel="stylesheet">
-    <link src="css/medium.css" type="text/css" rel="stylesheet">
-    <link src="css/large.css" type="text/css" rel="stylesheet">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/small.css" type="text/css" rel="stylesheet">
+    <link href="css/medium.css" type="text/css" rel="stylesheet">
+    <link href="css/large.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display%7cPlayfair+Display+SC" rel="stylesheet">
     <script src="scripts/hamburger.js"></script>
     </head>
     <body>
@@ -19,19 +20,41 @@
             Readily available navigation and contact information for the hotel chain
             Summary information about a temple of your choosing-->
     <header>
-        <nav>
-                <button onclick="toggleMenu()">&#9776;</button>
-                <ul  id="primaryNav" class="hide">
-                        <li class="active"><a href="index.html">Home </li></a>
-                        <li class="active"><a href="temple.html">Temple</li></a>
-                        <li class="active"><a href="reservation.html">RSVP</li></a>
-                        <li class="active"><a href="reception.html">Reception</li></a>
-                        <li class="active"><a href="services.html">Services</li></a>
-                        <li class="active"><a href="contact.html">Contact</li></a>
-                        <li class="active"><a href="templemissionary.html">Temple Missionary</li></a>
-            </ul>
-        </nav>
+
+        <picture>
+            <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
+            <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
+            <source media="(max-width: 600px)" srcset="images/logo274x53.png">
+            <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+        </picture>
+       
     </header>
+    <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+
+            <ul  id="primaryNav" class="hide">
+                    <li class="active">
+                        <a href="index.html">Home</a> 
+                    </li>
+                    <li class="active">
+                        <a href="temple.html">Temple</a>
+                    </li>
+                    <li class="active">
+                        <a href="reservation.html">RSVP</a>
+                    </li>
+                    <li class="active">
+                        <a href="reception.html">Reception</a></li>
+                    <li class="active">
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="active">
+                        <a href="templemissionary.html">Temple Missionary</a>
+                    </li>
+        </ul>
+    </nav>
     <main>
         <picture>
             <source media="(min-width:961px)" srcset="images/sandiegolarge1278x800.jpg">

@@ -5,10 +5,10 @@
     <meta  name="description" content="temple suites">
     <meta  name="viewport" content="width = device width" , initial-scale=1, maximum-scale=1>
     <title>Temple Inn and Suites</title>
-    <link src="css/normalize.css" type="text/css" rel="stylesheet">
-    <link src="css/small.css" type="text/css" rel="stylesheet">
-    <link src="css/medium.css" type="text/css" rel="stylesheet">
-    <link src="css/large.css" type="text/css" rel="stylesheet">
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/small.css" type="text/css" rel="stylesheet">
+    <link href="css/medium.css" type="text/css" rel="stylesheet">
+    <link href="css/large.css" type="text/css" rel="stylesheet">
     <script src="scripts/hamburger.js"></script>
     </head>
     <body>
@@ -18,31 +18,90 @@
             and special accommodations/comments. You will need to use the CSS
              flex method for the layout of your reservation form for full credit.-->
     <header>
-        <nav>
-            <button onclick="toggelMenu()">&#9776;</button>
-                <ul id="primeNav" class="hide">
-                        <li class="active"><a href="index.html">Home </li></a>
-                        <li class="active"><a href="temple.html">Temple</li></a>
-                        <li class="active"><a href="reservation.html">RSVP</li></a>
-                        <li class="active"><a href="services.html">Services</li></a>
-                        <li class="active"><a href="contact.html">Contact</li></a>
-                         
-             </ul>
-        </nav>
+   
     </header>
+    <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+
+            <ul  id="primaryNav" class="hide">
+                    <li class="active">
+                        <a href="index.html">Home</a> 
+                    </li>
+                    <li class="active">
+                        <a href="temple.html">Temple</a>
+                    </li>
+                    <li class="active">
+                        <a href="reservation.html">RSVP</a>
+                    </li>
+                    <li class="active">
+                        <a href="reception.html">Reception</a></li>
+                    <li class="active">
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="active">
+                        <a href="templemissionary.html">Temple Missionary</a>
+                    </li>
+        </ul>
+    </nav>
+    </nav>
     <main>
                               <!--Display with flex-->
         <form>
+            <fieldset id="flexparent1">
+                <legend></legend>
+                <!---full name-->
+
+                 <!---email-->
+                <label>Email:
+                       <input type="email" name="email"/>
+                </label>
+
+               
+                <!---phone-->
+                <label>Phone:
+                        <input type="text" name="phone"/>
+                 </label>
+
+                       <!---home state or country-->
+                 <label>State/Country:
+                        <input type="text" name="State"/>
+                 </label>
+            </fieldset>
+
+                                   <!---date-->
+             <fieldset id="flexparent2">
+                 <label>Check In:
+                        <input type="date" name="Check In"/>
+                 </label>
+
+                 <label>Check Out:
+                        <input type="date" name="Check In"/>
+                 </label>
+                                <!---room type-->
+                 <label>Room:
+                        <input type="text" name="Room Type"/>
+                 </label>
+
+                               <!---number of rooms-->
+        
+           
+
+                               <!---special accomidations text area-->
+                 <textarea>Special Accomidations</textarea>
+            </fieldset>
 
             <!---location-->
-            <!---date-->
-            <!---number-->
-            <!---room type-->
-            <!---full name-->
-            <!---email-->
-            <!---phone-->
-            <!---home state or country-->
-            <!---special accomidations text area-->
+            
+            
+            
+            
+           
+            
+            
+            
 
 
 
