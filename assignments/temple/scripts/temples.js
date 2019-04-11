@@ -33,7 +33,7 @@ templeRequest.send();
 
     for(t=0; t < templeData.temples.length; t++){
     
-    switch ([t]){
+    switch (t){
 
          case 0 :
             
