@@ -33,7 +33,7 @@ templeRequest.send();
 
     for(t=0; t < templeData.temples.length; t++){
 
-     var templeNum = [t];
+     var templeNum = t;
     
     switch (templeNum){
 
