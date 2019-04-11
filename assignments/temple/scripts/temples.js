@@ -143,7 +143,7 @@ templeRequest.send();
                   var historyP = document.createElement("p");
                   historyP.textContent= templeData.temples[templeNum].history[historyNum];
                   var position = document.getElementById("article3");
-                  position.appendChild(historyp);
+                  position.appendChild(historyP);
 
                   /*document.getElementsByClassName("history3").innerHTML = templeData.temples[templeNum].history[historyNum];*/
                   }
@@ -190,7 +190,7 @@ templeRequest.send();
                   var historyP = document.createElement("p");
                   historyP.textContent= templeData.temples[templeNum].history[historyNum];
                   var position = document.getElementById("article4");
-                  position.appendChild(historyp);
+                  position.appendChild(historyP);
                   /*document.getElementsByClassName("history4").innerHTML = templeData.temples[templeNum].history[historyNum];*/
                  }
               for(s=0;s < templeData.temples[templeNum].services.length; s++){
