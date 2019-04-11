@@ -43,13 +43,18 @@
           "Tuesday, 31 December 2019"
               ],
 
-  "services":[
-           "clothing rental none",
-           "cafeteria none",
-           "patron housing none",
-           "distribution center none"
+  
+              "services" : [
 
-             ]
+                {
+                  "Clothing Rental" : "No",
+                  "Cafeteria" : "No",
+                  "Patron Housing" : "No",
+                  "Distribution Center" : "No"
+    
+               }
+             
+              ]
           },
 
  {
@@ -68,7 +73,7 @@
                  "Inititories",
                  "Sealings"
                 ],
-   "Endowment schedule":[
+   "schedule":[
                    "8:00am",
                    "10:00am",
                    "12:00pm",
@@ -86,13 +91,13 @@
 
    "services" : [
 
-            {
-              "Clothing Rental" : "No",
-              "Cafeteria" : "No",
-              "Patron Housing" : "No",
-              "Distribution Center" : "No"
+            
+              "Clothing Rental  No",
+              "Cafeteria   No",
+              "Patron Housing  No",
+              "Distribution Center   No"
 
-           }
+           
          
           ]
         },
@@ -118,7 +123,7 @@
                  "Sealings"
                 ],
 
-    "Endowment schedule":[
+    "schedule":[
                   "9:00 AM",
                   "10:00 AM",
                   "11:00 AM",
@@ -136,12 +141,12 @@
 
      "services":[
             
-            {
-              "Clothing Rental":"Yes",
-               "Cafeteria":"No",
-               "Patron Housing":"No",
-               "Distribution Center":"No"
-            }
+            
+              "Clothing Rental Yes",
+               "Cafeteria No",
+               "Patron Housing No",
+               "Distribution Center No"
+            
 
               ]
           
@@ -167,7 +172,7 @@
                  "Sealings"
                 ],
 
-    "Endowment schedule" : [
+    "schedule" : [
                 
                  "9:30am",
                  "10:30am",
@@ -188,13 +193,13 @@
 
      "services":[
 
-          {
-            "Clothing Rental":"Yes",
-            "Cafeteria":"No",
-            "Patron Housing":"No",
-            "Distribution Center":"No"
+          
+            "Clothing Rental Yes",
+            "Cafeteria No",
+            "Patron Housing No",
+            "Distribution Center No"
 
-          }
+          
               ]
             }
       ]
