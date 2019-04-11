@@ -32,10 +32,8 @@ templeRequest.send();
    var scheduleNum;
 
     for(t=0; t < templeData.temples.length; t++){
-
-     var templeNum = [t];
     
-    switch (templeNum){
+    switch ([t]){
 
          case 0 :
             
