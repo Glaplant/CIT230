@@ -28,12 +28,12 @@ weatherRequest3.send();
 
 
 
-    document.getElementById('current3').innerHTML= weatherData.main.temp + "&#8457;";
-    document.getElementById('maxtemp3').innerHTML= weatherData.main.temp_max + "&#8457;";
-    document.getElementById('mintemp3').innerHTML= weatherData.main.temp_min + "&#8457;";
-    document.getElementById('humidity3').innerHTML= weatherData.main.humidity + "&#37;";
-    document.getElementById('windspeed3').innerHTML= weatherData.wind.speed + "&#8457;";
-    document.getElementById('windchill3').innerHTML= fround + "&#8457;";
+    document.getElementById('current3').innerHTML= "Current Temp:  " + weatherData.main.temp + "&#8457;";
+    document.getElementById('maxtemp3').innerHTML= "High:  " + weatherData.main.temp_max + "&#8457;";
+    document.getElementById('mintemp3').innerHTML= "Min:  " + weatherData.main.temp_min + "&#8457;";
+    document.getElementById('humidity3').innerHTML= "Humidity:  " + weatherData.main.humidity + "&#37;";
+    document.getElementById('windspeed3').innerHTML= "Windspeed:  " + weatherData.wind.speed + "MPH";
+    document.getElementById('windchill3').innerHTML= "Wind Chill:  " + fround + "&#8457;";
 
 
     }

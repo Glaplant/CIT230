@@ -17,9 +17,16 @@
             registrant's full name, email, phone, home state or country, 
             and special accommodations/comments. You will need to use the CSS
              flex method for the layout of your reservation form for full credit.-->
-    <header>
-   
-    </header>
+             <header>
+
+                    <picture>
+                        <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
+                        <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
+                        <source media="(max-width: 600px)" srcset="images/logo274x53.png">
+                        <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+                    </picture>
+                   
+                </header>
     <nav>
             <button onclick="toggleMenu()">&#9776;</button>
 
@@ -42,12 +49,19 @@
                         <a href="contact.html">Contact</a>
                     </li>
                     <li class="active">
-                        <a href="templemissionary.html">Temple Missionary</a>
+                        <a href="templemissionary.html">Missionaries</a>
                     </li>
         </ul>
     </nav>
-    </nav>
+
+   
     <main>
+            <picture id="slc" >
+                    <source media="(min-width:961px)" srcset="images/slc1280x400.jpg">
+                    <source media="(min-width:601px) and (max-width:960px)" srcset="images/slc960x300.jpg">
+                    <source media="(min-width:600px)" srcset="images/slc600w.jpg">
+                    <img src="images/slc600w.jpg" alt="saltlake city temple">
+                </picture>
                               <!--Display with flex-->
         <form>
             <fieldset id="flexparent1">

@@ -9,7 +9,7 @@
     <link href="css/small.css" type="text/css" rel="stylesheet">
     <link href="css/medium.css" type="text/css" rel="stylesheet">
     <link href="css/large.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cPlayfair+Display%7cPlayfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7cPlayfair+Display:400,900%7cPlayfair+Display+SC" rel="stylesheet">
     <script src="scripts/hamburger.js"></script>
     </head>
     <body>
@@ -23,9 +23,9 @@
 
         <picture>
             <source media="(min-width: 961px)" srcset="images/logo1062x107.png">
-            <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo547x69.png">
-            <source media="(max-width: 600px)" srcset="images/logo274x53.png">
-            <img src="images/logo274x53.png" alt= "temple inn and suites logo">
+            <source media="(min-width: 601px) and (max-width: 960px)" srcset="images/logo600w.png">
+            <source media="(max-width: 400px)" srcset="images/logo400w.png">
+            <img src="images/logo400w.png" alt= "temple inn and suites logo">
         </picture>
        
     </header>
@@ -43,7 +43,7 @@
                         <a href="reservation.html">RSVP</a>
                     </li>
                     <li class="active">
-                        <a href="reception.html">Reception</a></li>
+                        <a href="reception.html">Receptions</a></li>
                     <li class="active">
                         <a href="services.html">Services</a>
                     </li>
@@ -51,26 +51,89 @@
                         <a href="contact.html">Contact</a>
                     </li>
                     <li class="active">
-                        <a href="templemissionary.html">Temple Missionary</a>
+                        <a href="templemissionary.html">Missionaries</a>
                     </li>
         </ul>
     </nav>
     <main>
-        <picture>
-            <source media="(min-width:961px)" srcset="images/sandiegolarge1278x800.jpg">
-            <source media="(min-width:601px) and (max-width:960px)" srcset="images/sandiego799x500.jpg">
-            <source media="(min-width:600px)" srcset="images/sandiego399x250.jpg">
-            <img src="images/sandiegosmall399x250.jpg" alt="sandiegotemple">
-        </picture>
+         
+            
+         
+          <div>
+             <picture id="slc" >
+                    <source media="(min-width:961px)" srcset="images/slc1280x400.jpg">
+                    <source media="(min-width:601px) and (max-width:960px)" srcset="images/slc960x300.jpg">
+                    <source media="(min-width:600px)" srcset="images/slc600w.jpg">
+                    <img src="images/slc600w.jpg" alt="saltlake city temple">
+                </picture>
 
-        <p></p>
+            </div>
+        <!-------Hotel Image  -->
+        <div id="width">
+            <div class="brownbox">
+                <div class="border"> 
+                   <h1 id="welcome">Welcome</h1>
+                </div>
+                <div class="gridbox">
+                   <picture>
+                        <source media="(min-width:961px)"  srcset="images/hotelroom600w.jpg">
+                        <source media="(min-width:601px) and (max-width:960px)" srcset="images/hotelroom500w.jpg">
+                        <source media="(max-width:600px)" srcset="images/hotelroom500w.jpg">
+                        <img class ="imageposition" ;src="images/hotelroom500w" alt="hotel room">
+                    </picture>
+                 
+                 <div class="textbox">
+                    <h2>Call us to book a room near your temple today!</h2>
+                    <p>Make yourself at home at one of our many Inns or Suites located within walking distance of a Temple near you.</p>
+                    <ul>
+                       <li><a href="reservation.html">Reserve a Room</a></li>
+                       <li>123.555.5555</li>
+                       
+
+                    </ul>
+                   
+                 </div>
+               </div>
+            </div>
+           
+                            <!---Sandiego-->
+            <div class="brownbox">
+               <div class="border"> 
+                 <h1 id="sandiego">San Diego</h1>
+              </div>
+            <div class="gridbox">
+                <picture>
+            
+                  <source media="(min-width:961px)" srcset="images/sandiegolarge1278x800.jpg">
+                  <source media="(min-width:601px) and (max-width:960px)" srcset="images/sandiego799x500.jpg">
+                  <source media="(min-width:600px)" srcset="images/sandiego300w.jpg">
+                  <img class ="imageposition" src="images/sandiego300w.jpg" alt="sandiegotemple">
+                </picture>
+
+             <div class="textbox">
+            
+            
+                <p> The San Diego California Temple is the 47th constructed 
+                    and 45th operating temple of The Church of Jesus Christ of Latter-day Saints. 
+                    Located near the La Jolla community of San Diego, it was built with two main spires,
+                    but unique to this temple are four smaller spires at the base of each main spire.
+                </p>
+                <ul>
+                   <li>Opened: April 25, 1993</li>
+                   <li>Address: 7474 Charmant Dr, San Diego, CA 92122</li>
+                   <li>Phone: (858) 622-0991</li>
+            
+                </ul>
+            </div>
+         </div>
+       </div>
     </main>
     <footer>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-        <p>&copy; 2019| Greg La Plant|interstice Design</p>
+            <h3>Contact us</h3>
+            <p>123.555.5555</p>
+            <p> 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+
+        <p>&copy; 2019| Greg La Plant|<span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
 
     </footer>
     </body>
