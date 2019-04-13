@@ -26,14 +26,17 @@
         padding:3em;
     }
 
-    #temple1, #temple2, #temple3, #temple4{
-        border: solid 3px #000;
-    }
+  
 
     #slc{
        display:flex;
        justify-content:center;
+
        
+    }
+
+    #slcpositioning{
+        width:100%;
     }
 
     footer{
