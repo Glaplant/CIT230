@@ -79,7 +79,7 @@ templeRequest.send();
                   var position = document.getElementById("article3");
                   position.appendChild(closuresP);
                  /* document.getElementsByClassName("closures3").innerHTML= templeData.temples[templeNum].closures[closuresNum];*/
-             
+              }
     
          case 3 :
          
