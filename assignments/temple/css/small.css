@@ -292,8 +292,12 @@
            
 
               footer{
+                display:flex;
+                justify-content:space-evenly;
                 background-color:#A56935;
                 border-top:solid .5em #595c65;
+                padding:2em;
+                
              }
 
         }
@@ -359,7 +363,88 @@ main{
 
 
 
- /*-----Footer-------*/
+/*---form----*/
+
+.block{
+    display:block;
+    padding:.2em;
+    margin-top:1em;
+}
+
+legend{
+    font-family:'Open Sans', sans-serif;
+    font-weight:700;
+    font-size:1.5em;
+    color:#A56935;
+    background-color:#fff;
+    padding:.3em;
+    border:solid .5px #000;
+}
+
+fieldset{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+   
+}
+
+form{
+    margin-top:3em;
+    margin-bottom:2em;
+}
+
+label{
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+
+input{
+    background-color:#595c65;
+    color:white;
+    border-radius:5px;
+}
+
+input[type="submit"]{
+    padding:.3em;
+    background-color:#A56935;
+    font-weight:700;
+    font-family:'Open Sans',sans-serif;
+    margin:1em .5em;
+
+}
+
+input[type="submit"]:hover{
+    background-color:#595c65;
+
+}
+input[type="submit"]:active{
+    background-color:#595c65;
+
+}
+
+textarea{
+    background-color:#aeb0b6;
+}
+
+select{
+    background-color:#595c65;
+    color:white;
+    font-family:'Open Sans',sans-serif;
+}
+
+
+
+
+/*--temple page--*/
+#article1 p{
+    font-family:'Open Sans',sans-serif;
+    
+
+}
+ 
+
 
 
 

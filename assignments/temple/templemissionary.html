@@ -33,7 +33,7 @@
                         <a href="temple.html">Temple</a>
                     </li>
                     <li class="active">
-                        <a href="reservation.html">RSVP</a>
+                        <a href="reservation.html">Reservations</a>
                     </li>
                     <li class="active">
                         <a href="reception.html">Reception</a></li>
@@ -59,6 +59,7 @@
                     <source media="(min-width:600px)" srcset="images/slc600w.jpg">
                     <img src="images/slc600w.jpg" alt="saltlake city temple">
                 </picture>
+                <div id="roomsgrid">
         <div id="room1">
 
             <h1> Single Room</h1>
@@ -87,24 +88,44 @@
             </ul>
                 <img>
     </div>
-
+</div>
         <form>
             <fieldset>
             <legend>Contact Us for more information</legend>
-            <label>Name<input></label>
-            <label>Phone Number<input></label>
-            <label>Email<input></label>
-            
+            <label class='block'>First Name:
+                    <input class='block' type="text" name="name" required>
+             </label>
+
+             <label class='block'>Last Name:
+                    <input class='block' type="text" name="name" required>
+             </label>
+
+
+
+
+              <!---phone-->
+            <label class='block'>Phone
+                    <input class='block'  type="tel" name="phone"
+                    placeholder="123-234-5555" maxlength="10">
+             </label>
+
+
+             <!---email-->
+            <label class='block'>Email
+                   <input class='block' type="email" name="email"
+                   placeholder="someone@gmail.com" required>
+            </label>
         </fieldset>
         </form>
 
     </main>
-    <footer>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
+    
+            <footer>
 
-    </footer>
+                    <p> &copy; 2019 | Greg La Plant | <span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
+            
+                </footer>
+
+    
     </body>
     </html>

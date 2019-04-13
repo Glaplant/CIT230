@@ -38,7 +38,7 @@
                         <a href="temple.html">Temple</a>
                     </li>
                     <li class="active">
-                        <a href="reservation.html">RSVP</a>
+                        <a href="reservation.html">Reservations</a>
                     </li>
                     <li class="active">
                         <a href="reception.html">Reception</a></li>
@@ -63,49 +63,86 @@
                     <img src="images/slc600w.jpg" alt="saltlake city temple">
                 </picture>
                               <!--Display with flex-->
-        <form>
+     <form method="get" action="thanks.html">
+
+            <div id="flexform">
             <fieldset id="flexparent1">
-                <legend></legend>
+                <legend>Contact Information</legend>
+
                 <!---full name-->
 
+                <label class='block'>First Name:
+                        <input class='block' type="text" name="name" required>
+                 </label>
+
+                 <label class='block'>Last Name:
+                        <input class='block' type="text" name="name" required>
+                 </label>
+
+
+
+
+                  <!---phone-->
+                <label class='block'>Phone
+                        <input class='block'  type="tel" name="phone"
+                        placeholder="123-234-5555" maxlength="10">
+                 </label>
+
+
                  <!---email-->
-                <label>Email:
-                       <input type="email" name="email"/>
+                <label class='block'>Email
+                       <input class='block' type="email" name="email"
+                       placeholder="someone@gmail.com" required>
                 </label>
 
                
-                <!---phone-->
-                <label>Phone:
-                        <input type="text" name="phone"/>
-                 </label>
+               
 
                        <!---home state or country-->
-                 <label>State/Country:
-                        <input type="text" name="State"/>
+                 <label class='block'>State/Country:
+                        <input class='block' type="text" name="State"/>
                  </label>
             </fieldset>
 
-                                   <!---date-->
+                                  <!---date-->
              <fieldset id="flexparent2">
-                 <label>Check In:
-                        <input type="date" name="Check In"/>
+
+                 <legend>Reservation</legend>
+
+                 <label class='block'>Check In
+                        <input class='block' type="date" name="Check In"/>
                  </label>
 
-                 <label>Check Out:
-                        <input type="date" name="Check In"/>
+                 <label class='block'>  Check Out
+                        <input class='block' type="date" name="Check In"/>
                  </label>
                                 <!---room type-->
-                 <label>Room:
-                        <input type="text" name="Room Type"/>
-                 </label>
+                
+                                <label class='block' for="roomtype">Room Type</label>
+                                <select name="Room Types">
+                                  <option value="Please Select">select room</option>
+                                  <option value="Single Room">Single</option>
+                                  <option value="Family Room">Family</option>
+                                  <option value="Large Suite">Large</option>
+                                
+                                  </select>
 
                                <!---number of rooms-->
         
-           
+                               <label class='block' for="number of rooms">How many Rooms</label>
+                               <select name="Room Types">
+                                 <option value="Please Select">how many</option>
+                                 <option value="Single Room">1</option>
+                                 <option value="Family Room">2</option>
+                                 <option value="Large Suite">3</option>
+                               
+                                 </select>
 
                                <!---special accomidations text area-->
-                 <textarea>Special Accomidations</textarea>
-            </fieldset>
+                 <label class='block'>Please enter any needed special accommodations. <textarea name="comments" cols="20"  row="20"></textarea></label>
+                 <input class='block' type="submit" value="send">
+               </fieldset>
+            </div>
 
             <!---location-->
             
@@ -126,11 +163,9 @@
         </form>
     </main>
     <footer>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
 
-    </footer>
+            <p> &copy; 2019 | Greg La Plant | <span><a href="http://intersticedesign.com/">interstice Design</a></span></p>
+    
+        </footer>
     </body>
     </html>
