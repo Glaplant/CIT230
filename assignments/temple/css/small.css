@@ -434,7 +434,16 @@ select{
     font-family:'Open Sans',sans-serif;
 }
 
+/*--contact---*/
 
+@media screen and (max-width:600px){
+   #margin{
+
+       width:90%;
+       margin:0;
+   }
+
+   }
 
 
 /*--temple page--*/

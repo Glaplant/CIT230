@@ -73,7 +73,7 @@ nav ul li {
         display:inline-block;
         border-top:none;
         margin:0;
-        padding:.8em 1.5em;
+        padding:.8em 1em;
         font-size:.8em
     
     }
@@ -84,7 +84,7 @@ nav ul li a{
     display:inline-block;
     border-top:none;
     margin:0;
-    padding:.8em 3em;
+    padding:.8em 2em;
 
 }
 }
