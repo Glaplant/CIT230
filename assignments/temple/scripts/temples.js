@@ -44,7 +44,7 @@ templeRequest.send();
                     var closuresP = document.createElement("p");
                     closuresP.textContent = templeData.temples[templeNum].closures[closuresNum];
                     var position = document.getElementById("article1");
-                    position.appendChild(closuresP);
+                    position.appendChild(closuresP);<br/>
                    /* document.getElementsByClassName("closures1").innerHTML= templeData.temples[templeNum].closures[closuresNum];*/
 
               }
@@ -60,7 +60,7 @@ templeRequest.send();
                   var closuresP = document.createElement("p");
                   closuresP.textContent = templeData.temples[templeNum].closures[closuresNum];
                   var position = document.getElementById("article2");
-                  position.appendChild(closuresP);
+                  position.appendChild(closuresP);<br/>
                  /* document.getElementsByClassName("closures2").innerHTML= templeData.temples[templeNum].closures[closuresNum];*/
 
               }
@@ -77,7 +77,7 @@ templeRequest.send();
                   var closuresP = document.createElement("p");
                   closuresP.textContent = templeData.temples[templeNum].closures[closuresNum];
                   var position = document.getElementById("article3");
-                  position.appendChild(closuresP);
+                  position.appendChild(closuresP);<br/>
                  /* document.getElementsByClassName("closures3").innerHTML= templeData.temples[templeNum].closures[closuresNum];*/
               }
     
@@ -88,7 +88,7 @@ templeRequest.send();
                 var closuresP = document.createElement("p");
                 closuresP.textContent = templeData.temples[templeNum].closures[closuresNum];
                 var position = document.getElementById("article4");
-                position.appendChild(closuresP);
+                position.appendChild(closuresP);<br/>
                /* document.getElementsByClassName("closures4").innerHTML= templeData.temples[templeNum].closures[closuresNum];*/
            
             
